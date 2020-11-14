@@ -1,0 +1,326 @@
+/* line 5, footer.scss */
+#footer-main {
+  /* color: $mainFontColor;
+  background: $bgColor; */
+  color: #DADADA;
+  background: #2B2B2B;
+  clear: both;
+  padding: 20px 0 10px 0;
+}
+/* line 12, footer.scss */
+#footer-main a {
+  color: #fff;
+}
+
+/* line 17, footer.scss */
+#footer-index {
+  margin-bottom: -25px;
+  padding: 40px 0 0 0;
+  border-top: solid 2px #efefef;
+  background: #33383a;
+  color: #cccccc;
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  /* line 17, footer.scss */
+  #footer-index {
+    padding: 25px 0;
+  }
+  /* line 27, footer.scss */
+  #footer-index #mobile-footer .navbar-toggle {
+    float: none;
+  }
+  /* line 30, footer.scss */
+  #footer-index #mobile-footer .navbar-toggle button.footer-title {
+    color: #fafafa;
+    background: rgba(26, 26, 26, 0.2);
+    padding: 7px;
+    font-weight: 100;
+    width: 100%;
+    border: none;
+    margin-bottom: 5px;
+  }
+  /* line 38, footer.scss */
+  #footer-index #mobile-footer .navbar-toggle button.footer-title span {
+    float: right;
+  }
+  /* line 44, footer.scss */
+  #footer-index #mobile-footer .navbar-toggle #footer-help-collapse .navbar-nav, #footer-index #mobile-footer .navbar-toggle #footer-about-collapse .navbar-nav {
+    background: rgba(26, 26, 26, 0.4);
+    margin: 0 0 7px 0;
+  }
+}
+/* line 52, footer.scss */
+#footer-index hr {
+  margin: 25px 0;
+}
+/* line 55, footer.scss */
+#footer-index a {
+  color: #cccccc;
+}
+/* line 58, footer.scss */
+#footer-index .img-icon-footer {
+  height: 30px;
+  margin: 0 15px;
+}
+/* line 62, footer.scss */
+#footer-index #footer-news {
+  height: 80px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+/* line 66, footer.scss */
+#footer-index #footer-news img {
+  width: 120px;
+  margin: 0 10px 0 0;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 73, footer.scss */
+#footer-index #footer-news img:hover {
+  cursor: pointer;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  -o-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+/* line 80, footer.scss */
+#footer-index #footer-social {
+  padding: 0 0 25px 0;
+}
+/* line 82, footer.scss */
+#footer-index #footer-social #group-social {
+  width: 100%;
+  text-align: center;
+}
+/* line 85, footer.scss */
+#footer-index #footer-social #group-social .btn-footer-social {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #C9CFD2;
+  color: #fff;
+  text-align: center;
+  padding: 16px 0 0 0;
+  display: inline-block;
+}
+/* line 94, footer.scss */
+#footer-index #footer-social #group-social .btn-footer-social:hover {
+  opacity: 0.9;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.46);
+  cursor: pointer;
+}
+/* line 98, footer.scss */
+#footer-index #footer-social #group-social .btn-footer-social:focus {
+  outline: none;
+}
+/* line 102, footer.scss */
+#footer-index #hotline {
+  padding-bottom: 25px;
+}
+/* line 105, footer.scss */
+#footer-index .footer-title {
+  color: #cccccc;
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 111, footer.scss */
+#footer-index ul li {
+  list-style: none;
+}
+/* line 117, footer.scss */
+#footer-index #org-left {
+  /* width: 50%; */
+  /* text-align: right; */
+  /* padding: 0 10px 0 10px; */
+}
+/* line 122, footer.scss */
+#footer-index #org-right {
+  width: 50%;
+  padding: 0 10px 0 10px;
+}
+/* line 125, footer.scss */
+#footer-index #org-right img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* line 130, footer.scss */
+#footer-index #copyright {
+  color: #cccccc;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 136, footer.scss */
+#footer-index #footer-main {
+  color: #cccccc;
+  background: #33383a;
+  clear: both;
+  padding: 10px 0 10px 0;
+}
+
+/*
+@media (min-width: 801px){
+    #footer-social {
+        #group-social {
+            .btn-footer-social{                
+                margin:0px 15px;}
+        }
+    }
+}
+@media (min-width: 481px) and (max-width:800px) {
+    
+    #footer{
+        #footer-social {
+            #group-social {
+                .btn-footer-social{                
+                    margin:0px 5px;}
+            }
+        }
+        #footer-about{
+            ul {
+                padding-left:0px;
+
+            }
+            .footer-service{
+                h4 {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    
+}
+@media (min-width: 481px) and (max-width:767px){
+    #footer {
+        #footer-about{
+            display: none;
+        }
+        #mobile-footer {
+            .navbar-toggle {
+                width: 100%;
+                padding: 0 auto;
+                margin-right: 0px;
+                ul{
+                    list-style: none;
+                    padding:0px;
+                    li{
+                        line-height: 30px;
+                        padding-bottom:5px;
+                        button{
+                            width: 100%;
+                            text-align: left;
+                            vertical-align: middle;
+                            background:transparent;
+                            border:none;
+                            border-bottom:1px solid #ddd;
+                            span {
+                                color: $mainFontColor;
+                                padding-top:5px;
+                                float: right;                           
+                            }                        
+                        }
+                        .footer-title{
+                            font-size: 14px;
+                            color: $mainFontColor;
+                            font-weight: bold;
+                        }
+                        .footer-service{
+                            padding-left:50px;
+                            color: $mainFontColor;
+                        }
+                        .contact{
+                            padding-left:6px;
+                        }
+                        .collapse-footer {
+                            ul {
+                                padding-left:10px;
+                                li {
+                                    a {
+
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+*/
+@media (max-width: 767px) {
+  /* line 237, footer.scss */
+  #footer {
+    padding: 0px;
+  }
+  /* line 239, footer.scss */
+  #footer #footer-about {
+    display: none;
+  }
+  /* line 243, footer.scss */
+  #footer #mobile-footer .navbar-toggle {
+    width: 100%;
+    margin-right: 0px;
+  }
+  /* line 246, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul {
+    list-style: none;
+  }
+  /* line 248, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li {
+    line-height: 30px;
+    padding-bottom: 5px;
+  }
+  /* line 251, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li button {
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    background: transparent;
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+  }
+  /* line 260, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li button span {
+    color: #cccccc;
+    padding-top: 5px;
+    float: right;
+  }
+  /* line 266, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li .footer-service {
+    padding-left: 10px;
+    color: #cccccc;
+  }
+  /* line 270, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li .contact {
+    padding-left: 6px;
+  }
+  /* line 275, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li .collapse-footer ul li {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    vertical-align: middle;
+  }
+  /* line 280, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li .collapse-footer ul li a {
+    padding: 15px 0;
+    color: #3879d9;
+    font-size: 14px;
+  }
+  /* line 286, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul li .collapse-footer ul li a:active,
+  #footer #mobile-footer .navbar-toggle ul li .collapse-footer ul li a:hover {
+    background: transparent;
+  }
+  /* line 293, footer.scss */
+  #footer #mobile-footer .navbar-toggle ul .footer-title {
+    font-size: 14px;
+    color: #cccccc;
+  }
+}

@@ -1,0 +1,107 @@
+/* 
+การใช้งาน
+ใส่ "@import 'template';"
+ในบรรทัดแรกของไฟล์ .scss ที่ต้องการใช้ไฟล์นี้
+และสามารถเรียกใช้งานตัวแปรที่ประกาศไว้ในนี้ได้ทั้งหมด
+ */
+$radius: 5px;
+/* Header */
+$main-nav-bg:#fff;
+$main-nav-color:#333;
+$main-nav-dropdown-color:#333;
+$nav-height: 60px;
+$collapse-color:#f1f1f1;
+$menu-mobile:50px;
+$bg-default:#f5f7f7;
+$border:1px solid #ddd;
+$topbar-height:36px;
+$topbar-font-size: 13px;
+/* --END Header-- */
+
+/* Body */
+$body-text-color: #282828;
+$bg-grey: #f5f5f5;
+/* --END Body-- */
+
+/* border */
+$border:1px solid;
+$border-color:#ddd;
+/* End border */
+
+/* Hero Header */
+$slide-height-xs:360px;
+$slide-height-sm:3600px;
+$slide-height-md:400px;
+/* --END Hero Header-- */
+
+/* Text Color */
+$text-grey: #999!important;
+$text-orange: #FF9100!important;
+$text-red: #f12b24!important;
+$text-blue: blue !important;
+$text-green: green !important;
+$danger-color: #F44336;
+$link:#0ba3ff; 
+$linkHover:#0ba3ff;
+/* --END Text Color-- */
+
+
+/* Button */
+$default-border-bottom: #ccc;
+$primary-border-bottom: #059dec;
+$success-border-bottom: #3E9E4A;
+$info-border-bottom: #33A1CD;
+$warning-border-bottom: #C78724;
+$danger-border-bottom: #B73228;
+/* --END Button-- */
+
+
+/* Campaign Show */
+$space:60px;
+$default-text:#989898;
+$main-background:#f5f7f7;
+$peterRiverBlue:#3498DB;
+$peterRiverBlueHover:#2980B9;
+$darkblue:#34495E;
+$darkblueHover:#2C3E50;
+$relateedRGBA:rgba(200,214,227,0.1);
+$relateedRGBAHover:rgba(200,214,227,0.7);
+$toptool:45px;
+$imgshow:530px;
+$close-detail:70px;
+$box-tool:40px;
+$img-box:100px;
+$size-select:30px;
+$plussize:4;
+$userimg:45px;
+$tabcolor: #F12B24;
+$wishlist:30px;
+$radicalRed:#F62459;
+$radicalRedHover:#DB0A5B;
+$darkblue:#34495E;
+$darkblueHover:#2C3E50;
+$iron:#DADFE1;
+$ironHover:#D2D7D3;
+
+/* --END Campaign Show-- */
+
+/* Color */
+
+$primary-color:#34495e;
+$primary-hover:#566777;
+$primary-active:#22313f;
+$success-color:#5eba1c;
+$success-hover:#77c143;
+$success-active:#4b9516;
+$info-color:#2196F3;
+$info-hover:#35aff8;
+$info-active:#1081de;
+$default-color:#eee;
+$default-hover:#f5f5f5;
+$default-active:#bdc3c7;
+$warning-color:#e67e22;
+$warning-hover:#e49147;
+$warning-active:#d35400;
+$danger-color:#e74c3c;
+$danger-hover:#e5695c;
+$danger-active:#c0392b;

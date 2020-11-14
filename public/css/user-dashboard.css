@@ -1,0 +1,386 @@
+/*user header*/
+/* line 9, user-dashboard.scss */
+.main {
+  min-height: 140px;
+  padding: 15px 0;
+}
+
+/*page follow*/
+/* line 15, user-dashboard.scss */
+.box-follow {
+  width: 100%;
+  height: 100px;
+  margin: 15px;
+  background: #fff;
+  color: #000;
+  border: 1px solid transparent;
+  -webkit-transition: width 0.2s;
+  -moz-transition: width 0.2s;
+  -o-transition: width 0.2s;
+  transition: width 0.2s;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 1px #bbbbbb;
+  -moz-box-shadow: 0px 0px 1px #bbbbbb;
+  -o-box-shadow: 0px 0px 1px #bbbbbb;
+  box-shadow: 0px 0px 1px #bbbbbb;
+}
+/* line 31, user-dashboard.scss */
+.box-follow .bg-f1 {
+  background: #f1f1f1;
+}
+/* line 33, user-dashboard.scss */
+.box-follow .media-left {
+  height: 100%;
+  vertical-align: middle;
+}
+/* line 36, user-dashboard.scss */
+.box-follow .media-left .box-img-circle {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 5px;
+}
+/* line 42, user-dashboard.scss */
+.box-follow .media-left .box-img-circle img {
+  max-width: 100%;
+  text-align: center;
+}
+/* line 47, user-dashboard.scss */
+.box-follow .media-body {
+  padding-top: 15px;
+}
+/* line 49, user-dashboard.scss */
+.box-follow .media-body a {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+/* line 56, user-dashboard.scss */
+.box-follow .media-body .user-name {
+  font-size: 18px;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 62, user-dashboard.scss */
+.box-follow .media-body .user-detail {
+  margin: 0 0 5px 0;
+  color: #999;
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 69, user-dashboard.scss */
+.box-follow .media-body .star {
+  color: #fac12f;
+}
+
+/* line 73, user-dashboard.scss */
+.box-follow:hover {
+  cursor: pointer;
+  border: 1px solid #bbb;
+  box-shadow: 5px 5px 10px #ddd;
+}
+
+/*profile*/
+/* line 84, user-dashboard.scss */
+#user-account-address .box,
+#user-account-contact .box,
+#user-account .box {
+  width: 800px;
+}
+
+/* line 88, user-dashboard.scss */
+.box-checkbox {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+/* line 91, user-dashboard.scss */
+.box-checkbox span {
+  line-height: 15px;
+  vertical-align: middle;
+}
+/* line 94, user-dashboard.scss */
+.box-checkbox input {
+  padding: 0px;
+  margin: 0px 5px 0px 0px;
+  vertical-align: middle;
+}
+
+/* line 100, user-dashboard.scss */
+.btn-edit {
+  float: right;
+}
+
+/* line 103, user-dashboard.scss */
+.well {
+  background: #FFF;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 107, user-dashboard.scss */
+.btn-save {
+  margin-bottom: 10px;
+}
+
+/* line 110, user-dashboard.scss */
+.hide-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px;
+}
+
+/* line 118, user-dashboard.scss */
+#mobile-user-order-history {
+  display: none;
+}
+
+/* line 121, user-dashboard.scss */
+.user-sub-account-menu-mobile {
+  display: none;
+}
+
+/* line 125, user-dashboard.scss */
+.sub-menu {
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
+}
+/* line 128, user-dashboard.scss */
+.sub-menu ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+/* line 131, user-dashboard.scss */
+.sub-menu ul li {
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  text-align: center;
+}
+/* line 135, user-dashboard.scss */
+.sub-menu ul li a {
+  width: 120px;
+  padding: 15px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #555555;
+}
+/* line 141, user-dashboard.scss */
+.sub-menu ul li a p {
+  margin: 0px;
+}
+/* line 144, user-dashboard.scss */
+.sub-menu ul li a .count {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 151, user-dashboard.scss */
+.sub-menu ul li:hover,
+.sub-menu ul li:focus {
+  border-bottom: 2px solid #ddd;
+  cursor: pointer;
+}
+/* line 154, user-dashboard.scss */
+.sub-menu ul li.active {
+  border-bottom: 2px solid #5f93de;
+}
+/* line 156, user-dashboard.scss */
+.sub-menu ul li.active a {
+  color: #3879d9;
+  background-color: #f7f7f7;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 164, user-dashboard.scss */
+  .hide-overflow {
+    width: 65%;
+  }
+
+  /* line 167, user-dashboard.scss */
+  .user-sub-leftmenu {
+    display: none;
+  }
+
+  /* line 169, user-dashboard.scss */
+  .user-sub-account-menu-mobile {
+    display: block;
+    text-align: center;
+  }
+
+  /* line 176, user-dashboard.scss */
+  .sub-menu ul li a {
+    width: auto;
+  }
+}
+@media (max-width: 480px) {
+  /* line 185, user-dashboard.scss */
+  .form-control {
+    font-size: 12px;
+  }
+
+  /* line 188, user-dashboard.scss */
+  .btn {
+    font-size: 12px;
+  }
+
+  /* line 191, user-dashboard.scss */
+  .hide-overflow {
+    width: 50%;
+  }
+
+  /* line 197, user-dashboard.scss */
+  .sub-menu ul li a {
+    font-size: 12px;
+    width: auto;
+    padding: 15px 10px;
+  }
+
+  /* line 205, user-dashboard.scss */
+  .user-sub-leftmenu {
+    display: none;
+  }
+
+  /* line 207, user-dashboard.scss */
+  #mobile-user-sub-menu {
+    padding: 0 15px;
+  }
+  /* line 209, user-dashboard.scss */
+  #mobile-user-sub-menu .col-mobile-menu {
+    padding: 2px;
+  }
+  /* line 212, user-dashboard.scss */
+  #mobile-user-sub-menu .mobile-sub-menu {
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    padding: 15px 15px;
+    display: block;
+    text-decoration: none;
+  }
+
+  /* line 221, user-dashboard.scss */
+  #mobile-user-menu {
+    padding: 10px 0 20px 0;
+    min-height: 200px;
+    text-align: center;
+    font-size: 12px;
+    margin: 20px 0;
+    color: #254b7c;
+  }
+  /* line 228, user-dashboard.scss */
+  #mobile-user-menu img {
+    width: 50px;
+  }
+  /* line 232, user-dashboard.scss */
+  #mobile-user-menu .div-link {
+    cursor: pointer;
+    border-left: 1px solid #ddd;
+  }
+  /* line 236, user-dashboard.scss */
+  #mobile-user-menu .div-link:last-child {
+    border-left: transparent;
+  }
+
+  /*หน้า user order history*/
+  /* line 242, user-dashboard.scss */
+  .mobile-box, #mobile-user-order-history .box {
+    background: #fff;
+    padding: 5px;
+    margin: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+
+  /* line 251, user-dashboard.scss */
+  .box .btn-save {
+    margin-top: 10px;
+  }
+
+  /* line 256, user-dashboard.scss */
+  #user-order-history {
+    display: none;
+  }
+
+  /* line 259, user-dashboard.scss */
+  #mobile-user-order-history {
+    display: block;
+    background: #f1f1f1;
+  }
+  /* line 265, user-dashboard.scss */
+  #mobile-user-order-history .box .order p {
+    font-size: 14px;
+  }
+  /* line 268, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-title {
+    margin: 5px;
+    border-bottom: 1px solid #f1f1f1;
+    vertical-align: middle;
+  }
+  /* line 274, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-title h4 a {
+    line-height: 24px;
+  }
+  /* line 277, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-title h4 .check {
+    font-size: 24px;
+    color: #2ECC71;
+    float: right;
+  }
+  /* line 282, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-title h4 .wait {
+    font-size: 24px;
+    color: #F39C12;
+    float: right;
+  }
+  /* line 289, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-detail {
+    padding: 5px 5px 5px 10px;
+  }
+  /* line 292, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-total {
+    padding: 5px 5px 15px 10px;
+    border-top: 1px solid #f1f1f1;
+    font-weight: bold;
+    vertical-align: middle;
+    line-height: 24px;
+  }
+  /* line 298, user-dashboard.scss */
+  #mobile-user-order-history .box .order .order-total span {
+    margin-top: 5px;
+  }
+  /* line 304, user-dashboard.scss */
+  #mobile-user-order-history .box:last-child {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /*user follow*/
+  /* line 309, user-dashboard.scss */
+  .box-follow {
+    height: 80px;
+    margin: 0 0 15px 0;
+  }
+  /* line 313, user-dashboard.scss */
+  .box-follow .media-left .box-img-circle {
+    width: 50px;
+    height: 50px;
+  }
+  /* line 318, user-dashboard.scss */
+  .box-follow .media-body {
+    padding-top: 10px;
+  }
+  /* line 320, user-dashboard.scss */
+  .box-follow .media-body .user-name {
+    font-size: 14px;
+  }
+  /* line 323, user-dashboard.scss */
+  .box-follow .media-body .user-detail {
+    font-size: 12px;
+  }
+}

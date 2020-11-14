@@ -1,0 +1,272 @@
+/* line 11, document.scss */
+body {
+  font-family: "Open-Sans","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+
+/* line 14, document.scss */
+p {
+  margin-bottom: 5px;
+  padding-top: 6px;
+}
+
+/* line 18, document.scss */
+label {
+  font-weight: bold;
+}
+
+/* line 21, document.scss */
+.page-a5 {
+  width: 210mm;
+  height: 148mm;
+}
+
+@media all {
+  /* line 26, document.scss */
+  .page-break {
+    display: none;
+  }
+}
+@media print {
+  /* line 32, document.scss */
+  .page-break {
+    display: block;
+    height: 1px;
+    page-break-after: always;
+  }
+}
+/* line 41, document.scss */
+#mubaza-logo {
+  width: 70px;
+  float: left;
+  display: inline-block;
+  position: absolute;
+}
+
+/* line 48, document.scss */
+.doc-header .doc-header-left {
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* line 58, document.scss */
+.table-data {
+  width: 100%;
+  margin-top: 10px;
+}
+/* line 61, document.scss */
+.table-data thead {
+  border-bottom: none !important;
+}
+/* line 64, document.scss */
+.table-data thead tr th {
+  border: 1px solid;
+  text-align: center;
+  font-weight: bold;
+  background: #fafafa;
+}
+/* line 70, document.scss */
+.table-data thead tr .title {
+  background: #ccc;
+}
+/* line 77, document.scss */
+.table-data tbody tr td {
+  border-left: 1px solid;
+  line-height: 22px;
+  padding: 0 10px;
+}
+/* line 81, document.scss */
+.table-data tbody tr td:last-child {
+  border-right: 1px solid;
+}
+/* line 84, document.scss */
+.table-data tbody tr td .mockup {
+  height: 300px;
+  margin: auto;
+}
+/* line 90, document.scss */
+.table-data tbody tr:last-child td {
+  border-bottom: 1px solid;
+}
+/* line 98, document.scss */
+.table-data tfoot tr td {
+  border: 1px solid;
+  line-height: 20px;
+  padding: 5px 10px;
+}
+
+/* line 109, document.scss */
+.table-footer {
+  width: 100%;
+}
+/* line 113, document.scss */
+.table-footer thead tr th {
+  border-bottom: 2px solid;
+  height: 50px;
+}
+/* line 122, document.scss */
+.table-footer tbody tr td {
+  width: 33.33%;
+  border: 1px solid;
+  padding: 15px;
+  text-align: center;
+}
+/* line 127, document.scss */
+.table-footer tbody tr td hr {
+  margin-top: 65px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #333;
+}
+
+/* line 137, document.scss */
+.border {
+  border: 1px solid;
+}
+
+/* line 140, document.scss */
+.page {
+  height: 297mm;
+  width: 210mm;
+  text-align: left;
+  padding-top: 5px;
+}
+/* line 145, document.scss */
+.page .blukposting {
+  width: 100%;
+  font-size: 14px;
+}
+/* line 148, document.scss */
+.page .blukposting h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+/* line 153, document.scss */
+.page .blukposting h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+/* line 157, document.scss */
+.page .blukposting thead {
+  border-bottom: 2px solid;
+}
+/* line 160, document.scss */
+.page .blukposting thead tr th {
+  padding: 5px;
+}
+/* line 167, document.scss */
+.page .blukposting tbody tr td {
+  padding-top: 2px;
+}
+/* line 170, document.scss */
+.page .blukposting tbody tr .production-detail {
+  max-height: 315px;
+}
+/* line 173, document.scss */
+.page .blukposting tbody tr .production-print {
+  height: 400px;
+}
+/* line 177, document.scss */
+.page .blukposting tbody .table-border {
+  width: 100%;
+  border-top: 2px solid;
+}
+/* line 180, document.scss */
+.page .blukposting tbody .table-border thead {
+  border-bottom: 1px solid !important;
+}
+/* line 183, document.scss */
+.page .blukposting tbody .table-border thead tr th {
+  padding: 8px 5px 5px 5px;
+  border: 1px solid;
+  vertical-align: middle;
+  text-align: center;
+}
+/* line 196, document.scss */
+.page .blukposting tbody .table-border tbody tr:first-child td {
+  border-top: none !important;
+}
+/* line 200, document.scss */
+.page .blukposting tbody .table-border tbody tr td {
+  border: 1px solid;
+  border-top: none;
+  vertical-align: middle;
+  padding: 10px;
+}
+/* line 211, document.scss */
+.page .blukposting tbody .table-border tfoot tr .td-total {
+  padding: 0px;
+  border: 1px solid;
+  border-bottom: 2px double;
+  font-weight: bold;
+}
+/* line 216, document.scss */
+.page .blukposting tbody .table-border tfoot tr .td-total h3 {
+  border-bottom: 1px solid;
+  padding: 10px;
+  padding-right: 15px;
+}
+/* line 222, document.scss */
+.page .blukposting tbody .table-border tfoot tr td {
+  padding: 10px 0px 0 0px;
+  vertical-align: middle;
+}
+/* line 226, document.scss */
+.page .blukposting tbody .table-border tfoot tr .counter {
+  height: 80px;
+  vertical-align: bottom;
+}
+/* line 234, document.scss */
+.page .blukposting .saleorder {
+  height: 715px;
+}
+/* line 242, document.scss */
+.page .ordered {
+  width: 100%;
+}
+/* line 247, document.scss */
+.page .ordered thead tr th .logo {
+  height: 80px;
+  margin: auto;
+}
+
+/* line 258, document.scss */
+.table-cell {
+  display: table-cell;
+}
+
+/* line 261, document.scss */
+.pull-left {
+  float: left !important;
+}
+
+/* line 264, document.scss */
+.pull-right {
+  float: right !important;
+}
+
+/* line 267, document.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 270, document.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 273, document.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 276, document.scss */
+.text-bold {
+  font-weight: bold;
+}
+
+/* line 279, document.scss */
+.checkbox {
+  margin-right: 5px;
+}

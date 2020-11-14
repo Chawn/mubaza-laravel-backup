@@ -1,0 +1,64 @@
+/* line 1, backend.scss */
+body {
+  background: #fff;
+  /* border: solid 100px #ddd;
+  border-bottom: solid 10px #ddd;
+  border-top: solid 10px #ddd; */
+  font-family: "Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+  font-size: 14px;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga", "kern";
+}
+
+/* line 14, backend.scss */
+.product-box {
+  border: solid 1px #CCC;
+  padding: 0;
+  margin-bottom: 25px;
+  height: auto!important;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+/* line 22, backend.scss */
+.product-img {
+  height: 137px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 4px;
+}
+
+/* line 28, backend.scss */
+.product-img img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* line 33, backend.scss */
+.product-detail {
+  padding: 5px 10px;
+  border-top: solid 1px #DDD;
+}
+
+/* line 37, backend.scss */
+.product-name {
+  font-weight: bold;
+}
+
+/* line 40, backend.scss */
+.product-name, .author {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+/* line 46, backend.scss */
+.timeout {
+  margin-bottom: 0;
+  padding: 5px 0;
+  border-bottom: solid 1px #ddd;
+}

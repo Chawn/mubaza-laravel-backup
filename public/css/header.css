@@ -1,0 +1,522 @@
+/* 
+การใช้งาน
+ใส่ "@import 'template';"
+ในบรรทัดแรกของไฟล์ .scss ที่ต้องการใช้ไฟล์นี้
+และสามารถเรียกใช้งานตัวแปรที่ประกาศไว้ในนี้ได้ทั้งหมด
+ */
+/* Header */
+/* --END Header-- */
+/* Body */
+/* --END Body-- */
+/* border */
+/* End border */
+/* Hero Header */
+/* --END Hero Header-- */
+/* Text Color */
+/* --END Text Color-- */
+/* Button */
+/* --END Button-- */
+/* Campaign Show */
+/* --END Campaign Show-- */
+/* Color */
+/* line 4, header.scss */
+#nav-dismissible {
+  padding: 10px 0;
+  background: #2196f3;
+  color: #fff;
+}
+/* line 9, header.scss */
+#nav-dismissible .media .close {
+  font-size: 36px;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 14px;
+}
+/* line 16, header.scss */
+#nav-dismissible .media .media-left .media-object {
+  height: 67px;
+  width: auto;
+  max-width: none;
+}
+/* line 22, header.scss */
+#nav-dismissible .media .media-right {
+  padding: 14px 15px 0 15px;
+}
+@media (max-width: 767px) {
+  /* line 22, header.scss */
+  #nav-dismissible .media .media-right {
+    display: block;
+  }
+}
+/* line 29, header.scss */
+#nav-dismissible.alert {
+  margin-bottom: 0px;
+  border: none;
+}
+
+/* line 34, header.scss */
+#main-nav {
+  height: 64px;
+  margin-bottom: 0px;
+  background: #fff;
+}
+/* line 38, header.scss */
+#main-nav a:hover {
+  text-decoration: none;
+}
+/* line 41, header.scss */
+#main-nav .navbar-header {
+  margin-right: 25px;
+}
+@media (max-width: 767px) {
+  /* line 41, header.scss */
+  #main-nav .navbar-header {
+    width: auto;
+  }
+}
+/* line 48, header.scss */
+#main-nav .navbar-header #logo .logo img {
+  height: 62px;
+}
+/* line 51, header.scss */
+#main-nav .navbar-header #logo .logo .associate-logo {
+  height: 52px;
+}
+/* line 55, header.scss */
+#main-nav .navbar-header #logo .navbar-nav {
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 59, header.scss */
+  #main-nav .navbar-header #logo .navbar-nav {
+    display: inline-block;
+    float: right;
+  }
+  /* line 62, header.scss */
+  #main-nav .navbar-header #logo .navbar-nav li {
+    float: left;
+  }
+}
+/* line 71, header.scss */
+#main-nav .navbar-nav li a {
+  padding: 20px 15px;
+}
+/* line 74, header.scss */
+#main-nav .navbar-nav li #a-profile {
+  padding: 15px;
+}
+/* line 81, header.scss */
+#main-nav .dropdown-menu li a {
+  padding: 10px 15px;
+}
+@media (max-width: 767px) {
+  /* line 34, header.scss */
+  #main-nav {
+    height: auto;
+  }
+  /* line 89, header.scss */
+  #main-nav .navbar-header {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+  /* line 93, header.scss */
+  #main-nav .navbar-toggle {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 98, header.scss */
+  #main-nav .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  /* line 102, header.scss */
+  #main-nav #main-nav-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+/* line 109, header.scss */
+.badge {
+  padding: 4px 7px;
+  position: absolute;
+  top: 15px;
+  right: 5px;
+}
+
+/* line 115, header.scss */
+.slide-menu {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 999;
+  display: none;
+}
+/* line 121, header.scss */
+.slide-menu.in {
+  display: block;
+}
+/* line 124, header.scss */
+.slide-menu .close-slide {
+  z-index: 9999;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 52px;
+  height: 52px;
+  font-size: 36px;
+  color: #989898;
+  border: none;
+  background: transparent;
+}
+/* line 136, header.scss */
+.slide-menu .slide-dialog {
+  width: 100%;
+  height: 100%;
+  /*background:rgba(0,0,0,0.8);*/
+  background: #fff;
+}
+/* line 143, header.scss */
+.slide-menu .list-group .list-group-item {
+  height: 50px;
+  line-height: 50px;
+  border: none;
+}
+/* line 147, header.scss */
+.slide-menu .list-group .list-group-item a {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+/* line 150, header.scss */
+.slide-menu .list-group .list-group-item a i {
+  font-size: 18px;
+  margin-right: 8px;
+}
+/* line 156, header.scss */
+.slide-menu .list-group .li-user {
+  line-height: 60px;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 15px 10px 30px;
+}
+/* line 160, header.scss */
+.slide-menu .list-group .li-user #user-link {
+  display: block;
+}
+
+/* line 166, header.scss */
+.btn-slide-right {
+  background: transparent;
+  border: none;
+}
+/* line 169, header.scss */
+.btn-slide-right:focus {
+  background: transparent;
+}
+/* line 172, header.scss */
+.btn-slide-right:hover {
+  background: transparent;
+}
+
+/* line 177, header.scss */
+.notification {
+  padding-bottom: 0px;
+}
+/* line 179, header.scss */
+.notification .notification-header {
+  min-height: 35px;
+  padding: 5px 5px 0px 15px;
+}
+/* line 185, header.scss */
+.notification .notification-footer {
+  min-height: 25px;
+  background: #eeeeee;
+  padding: 5px 0;
+}
+
+/* line 192, header.scss */
+#dropdown-notification .notification-body {
+  width: 350px;
+  height: 400px;
+  overflow-y: scroll;
+}
+/* line 197, header.scss */
+#dropdown-notification .list-group-item {
+  border-left: none;
+  border-right: none;
+  background: #f5f5f5;
+}
+/* line 201, header.scss */
+#dropdown-notification .list-group-item:hover {
+  background: #fff;
+}
+
+/* line 209, header.scss */
+#nav-filter {
+  border-radius: 0;
+  margin-bottom: 0px;
+  min-height: 3em;
+}
+/* line 214, header.scss */
+#nav-filter .navbar-nav li {
+  /* min-width: 96px; */
+  text-align: center;
+}
+/* line 217, header.scss */
+#nav-filter .navbar-nav li a {
+  border-bottom: 0;
+  line-height: 3em;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #eee;
+}
+/* line 225, header.scss */
+#nav-filter .navbar-nav li.active a {
+  /* border-bottom:2px solid $info-color; */
+}
+/* line 229, header.scss */
+#nav-filter .navbar-nav li a:hover {
+  background: none;
+  color: #fff;
+}
+@media (max-width: 767px) {
+  /* line 214, header.scss */
+  #nav-filter .navbar-nav li {
+    min-width: auto;
+    display: inline-block;
+  }
+  /* line 236, header.scss */
+  #nav-filter .navbar-nav li .dropdown-menu {
+    position: absolute;
+    padding: 0px;
+  }
+  /* line 239, header.scss */
+  #nav-filter .navbar-nav li .dropdown-menu li {
+    display: block;
+  }
+  /* line 241, header.scss */
+  #nav-filter .navbar-nav li .dropdown-menu li a {
+    padding: 8px 15px 8px 25px;
+  }
+  /* line 243, header.scss */
+  #nav-filter .navbar-nav li .dropdown-menu li a:first-child {
+    margin-right: 0px;
+  }
+}
+/* line 252, header.scss */
+#nav-filter .navbar-nav .dropdown-menu li {
+  text-align: left !important;
+}
+/* line 254, header.scss */
+#nav-filter .navbar-nav .dropdown-menu li a {
+  background: #fff;
+  color: #282828;
+  line-height: 2.1em;
+}
+/* line 258, header.scss */
+#nav-filter .navbar-nav .dropdown-menu li a:hover {
+  background: #eeeeee;
+  color: #444;
+}
+@media (max-width: 991px) {
+  /* line 268, header.scss */
+  #nav-filter .col-sm-6, #nav-filter .col-xs-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  /* line 272, header.scss */
+  #nav-filter .text-title {
+    font-size: 1em;
+  }
+  /* line 276, header.scss */
+  #nav-filter .navbar-nav li {
+    min-width: auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 282, header.scss */
+  #nav-filter .navbar-nav {
+    margin-right: 10px;
+    margin-left: 15px;
+  }
+}
+
+/* line 288, header.scss */
+.navbar-primary {
+  background: #34495e;
+}
+/* line 291, header.scss */
+.navbar-primary .navbar-nav li {
+  color: #fff;
+}
+/* line 293, header.scss */
+.navbar-primary .navbar-nav li a {
+  color: #fff;
+  background: #34495e;
+}
+/* line 296, header.scss */
+.navbar-primary .navbar-nav li a:hover, .navbar-primary .navbar-nav li a:active, .navbar-primary .navbar-nav li a:focus {
+  /* background:$primary-hover; */
+  background: none;
+}
+/* line 301, header.scss */
+.navbar-primary .navbar-nav li .nav-title {
+  line-height: 3em;
+  padding: 0;
+  /* background:$primary-active;
+  padding-left:10px;
+  padding-right:10px; */
+}
+@media (max-width: 767px) {
+  /* line 301, header.scss */
+  .navbar-primary .navbar-nav li .nav-title {
+    width: auto;
+  }
+}
+/* line 313, header.scss */
+.navbar-primary .navbar-nav .dropdown-menu {
+  padding-top: 0px;
+}
+/* line 315, header.scss */
+.navbar-primary .navbar-nav .dropdown-menu li {
+  text-align: left !important;
+}
+/* line 317, header.scss */
+.navbar-primary .navbar-nav .dropdown-menu li a {
+  background: #fff;
+  color: #282828;
+}
+/* line 320, header.scss */
+.navbar-primary .navbar-nav .dropdown-menu li a:hover {
+  background: #eeeeee;
+  color: #444;
+}
+/* line 324, header.scss */
+.navbar-primary .navbar-nav .dropdown-menu li a:first-child {
+  padding-top: 5px;
+}
+
+/* line 334, header.scss */
+.searchbar {
+  width: 50%;
+  margin: 14px 0;
+}
+/* line 337, header.scss */
+.searchbar .input-group {
+  width: 100%;
+}
+/* line 339, header.scss */
+.searchbar .input-group .btn {
+  height: 36px;
+}
+/* line 343, header.scss */
+.searchbar #search-input {
+  height: 36px;
+  box-shadow: none;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  /* line 334, header.scss */
+  .searchbar {
+    width: auto;
+  }
+}
+@media (max-width: 767px) {
+  /* line 334, header.scss */
+  .searchbar {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+}
+
+/* ####### Associate ####### */
+@media (max-width: 767px) {
+  /* line 362, header.scss */
+  #main-nav-tool .navbar-header {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* line 366, header.scss */
+  #main-nav-tool .list-group {
+    background: #22313f;
+  }
+  /* line 368, header.scss */
+  #main-nav-tool .list-group .list-group-item {
+    background: transparent;
+    color: #fff;
+    border: none;
+  }
+  /* line 372, header.scss */
+  #main-nav-tool .list-group .list-group-item a {
+    background: transparent;
+    color: #fff;
+  }
+  /* line 377, header.scss */
+  #main-nav-tool .list-group .dropdown-title {
+    padding: 8px 10px;
+    background: #34495e;
+    opacity: 0.5;
+  }
+  /* line 381, header.scss */
+  #main-nav-tool .list-group .dropdown-title p {
+    margin: 0px;
+  }
+  /* line 386, header.scss */
+  #main-nav-tool .navbar-nav {
+    margin: 0px -15px;
+  }
+  /* line 389, header.scss */
+  #main-nav-tool #associate-dropdown {
+    float: left;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+/* line 397, header.scss */
+#navbar2.navbar-collapse {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 404, header.scss */
+#modal-cart-item .media-left {
+  width: 25%;
+}
+
+/* line 409, header.scss */
+#mobile-notification {
+  display: none;
+}
+/* line 411, header.scss */
+#mobile-notification.open {
+  display: block;
+}
+/* line 414, header.scss */
+#mobile-notification .close-notification {
+  float: right;
+  background-color: transparent;
+  color: #f5f5f5;
+  border: none;
+  font-size: 34px;
+}
+/* line 421, header.scss */
+#mobile-notification .notification-header {
+  padding: 15px 0;
+  background-color: #1081de;
+  color: #fff;
+  font-weight: border;
+  text-align: center;
+}
+
+/* line 429, header.scss */
+.nontification-backdrop {
+  background-color: #fff;
+}
+
+/* line 433, header.scss */
+body.lock {
+  overflow: hidden;
+}

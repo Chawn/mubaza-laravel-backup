@@ -1,0 +1,282 @@
+/* 
+การใช้งาน
+ใส่ "@import 'template';"
+ในบรรทัดแรกของไฟล์ .scss ที่ต้องการใช้ไฟล์นี้
+และสามารถเรียกใช้งานตัวแปรที่ประกาศไว้ในนี้ได้ทั้งหมด
+ */
+/* Header */
+/* --END Header-- */
+/* Body */
+/* --END Body-- */
+/* border */
+/* End border */
+/* Hero Header */
+/* --END Hero Header-- */
+/* Text Color */
+/* --END Text Color-- */
+/* Button */
+/* --END Button-- */
+/* Campaign Show */
+/* --END Campaign Show-- */
+/* Color */
+/* line 3, style.scss */
+a:focus, button:focus, input:focus, textarea:focus, select:focus {
+  outline: none!important;
+}
+
+/* line 7, style.scss */
+#modal-login .modal-dialog {
+  width: 400px;
+}
+/* line 10, style.scss */
+#modal-login #login-wrapper {
+  padding: 0;
+}
+@media (max-width: 370px) {
+  /* line 10, style.scss */
+  #modal-login #login-wrapper {
+    width: 89%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 17, style.scss */
+  #modal-login .modal-dialog {
+    width: 100%;
+    margin: 0px;
+  }
+  /* line 20, style.scss */
+  #modal-login .modal-dialog .modal-content {
+    width: 100%;
+  }
+  /* line 24, style.scss */
+  #modal-login #login-wrapper {
+    margin-right: 0px;
+    width: 100%;
+  }
+}
+
+/* line 30, style.scss */
+.modal-header {
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+
+/* line 38, style.scss */
+.product-box {
+  border: solid 1px #eee;
+  background: #fff;
+  padding: 0px;
+  margin-bottom: 25px;
+  text-decoration: none;
+  display: block;
+  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  /* margin: 0 8px 8px 8px; */
+}
+/* line 48, style.scss */
+.product-box .product-img {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0px;
+  display: block;
+  text-decoration: none;
+  max-height: 289px;
+  /* border: solid 1px $border-color-product; */
+}
+@media (max-width: 320px) {
+  /* line 48, style.scss */
+  .product-box .product-img {
+    height: 152px;
+  }
+}
+@media (min-width: 321px) and (max-width: 385px) {
+  /* line 48, style.scss */
+  .product-box .product-img {
+    height: 187px;
+  }
+}
+@media (min-width: 386px) and (max-width: 420px) {
+  /* line 48, style.scss */
+  .product-box .product-img {
+    height: 209px;
+  }
+}
+@media (min-width: 421px) and (max-width: 480px) {
+  /* line 48, style.scss */
+  .product-box .product-img {
+    height: 240px;
+  }
+}
+/* line 70, style.scss */
+.product-box .product-img img {
+  /* 
+  max-width: 170%;
+  width: 170%;
+  margin: -10% 0 -48% -35%;
+  */
+  max-width: 120%;
+  width: 120%;
+  margin: 0% 0 -10% -10%;
+}
+/* line 81, style.scss */
+.product-box .product-img .overlay-hidden {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.75);
+  text-align: center!important;
+}
+/* line 92, style.scss */
+.product-box .product-img .overlay-hidden .valign {
+  width: 0;
+  height: 100%;
+  display: inline-block!important;
+  vertical-align: middle;
+  text-align: center!important;
+}
+/* line 99, style.scss */
+.product-box .product-img .overlay-hidden .buttons {
+  vertical-align: middle;
+  display: inline-block!important;
+}
+/* line 102, style.scss */
+.product-box .product-img .overlay-hidden .buttons div.button {
+  margin-bottom: 10px;
+}
+/* line 107, style.scss */
+.product-box .product-img .overlay-active {
+  display: block;
+  visibility: visible;
+}
+/* line 115, style.scss */
+.product-box .product-detail {
+  /* border: solid 1px $border-color-product; */
+  border-top: none;
+  padding: 15px;
+  /* background: #f9f9f9; */
+}
+/* line 120, style.scss */
+.product-box .product-detail .product-name {
+  color: #747474;
+  padding: 0px;
+  font-size: 16px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 128, style.scss */
+.product-box .product-detail .product-name a {
+  color: #747474;
+}
+/* line 132, style.scss */
+.product-box .product-detail .product-description {
+  cursor: default;
+  color: #5B5B5B;
+  position: relative;
+}
+/* line 137, style.scss */
+.product-box .product-detail .product-description .price .price-number {
+  color: #5B5B5B;
+  font-size: 16px;
+  font-weight: bold;
+}
+/* line 142, style.scss */
+.product-box .product-detail .product-description .price .unit {
+  font-size: 14px;
+}
+/* line 148, style.scss */
+.product-box .product-detail .product-description .wish {
+  background-color: transparent;
+  font-size: 16px;
+}
+/* line 151, style.scss */
+.product-box .product-detail .product-description .wish i {
+  color: #EB6243;
+}
+/* line 154, style.scss */
+.product-box .product-detail .product-description .wish .btn-wish {
+  text-decoration: none;
+  color: #999;
+}
+/* line 157, style.scss */
+.product-box .product-detail .product-description .wish .btn-wish:hover {
+  color: #db0a5b;
+}
+/* line 161, style.scss */
+.product-box .product-detail .product-description .wish .wished {
+  color: #f62459;
+}
+/* line 164, style.scss */
+.product-box .product-detail .product-description .wish .btn-wish-unlogin, .product-box .product-detail .product-description .wish .btn-add-cart {
+  text-decoration: none;
+  color: #999;
+  outline: none;
+}
+/* line 168, style.scss */
+.product-box .product-detail .product-description .wish .btn-wish-unlogin:hover, .product-box .product-detail .product-description .wish .btn-add-cart:hover {
+  color: #db0a5b;
+}
+/* line 171, style.scss */
+.product-box .product-detail .product-description .wish .btn-wish-unlogin:focus, .product-box .product-detail .product-description .wish .btn-add-cart:focus {
+  outline: none;
+}
+
+/* line 184, style.scss */
+.col-md-4 .product-box .product-img {
+  max-height: 289px;
+}
+
+/* line 191, style.scss */
+.col-md-3 .product-box .product-img {
+  max-height: 230px;
+}
+
+/* line 206, style.scss */
+.product-box .product-img img {
+  transition: all .3s ease-in-out;
+}
+
+/* line 211, style.scss */
+.product-box:hover {
+  box-shadow: 0 0 8px #ccc;
+  cursor: pointer;
+  text-decoration: none;
+}
+/* line 214, style.scss */
+.product-box:hover .product-img img {
+  transform: scale(1.4, 1.4);
+}
+
+/* line 222, style.scss */
+.section {
+  margin: 25px 0;
+}
+
+/* line 225, style.scss */
+.main {
+  margin: 25px 0;
+}
+
+/* line 230, style.scss */
+#section-slide .jumbotron {
+  background: transparent;
+  color: #fff;
+}
+
+/* line 236, style.scss */
+.add-to-wish-list {
+  color: #e74c3c;
+}
+/* line 238, style.scss */
+.add-to-wish-list:hover {
+  color: #e5695c;
+  text-decoration: none;
+}

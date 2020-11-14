@@ -1,0 +1,48 @@
+$btnSize:30px;
+$bgPosition:100% 0;
+$bgHover:0 0;
+.btn-shared-social {
+	width:$btnSize;
+	height:$btnSize;
+	display:inline-block;
+	transition: all .2s ease-in-out;
+	&:hover{
+		cursor: pointer;
+	}
+}
+
+.btn-shared-facebook {
+	background: url(../images/icon/social/facebook-hover-left.png);
+	background-position:$bgPosition;
+	&:hover {
+		background-position:$bgHover;
+	}
+}
+.btn-shared-googleplus {
+	background: url(../images/icon/social/googleplus-hover-left.png);
+	background-position:$bgPosition;
+	&:hover {
+		background-position:$bgHover;
+	}
+}
+.btn-shared-pinterest {
+	background: url(../images/icon/social/pinterest-hover-left.png);
+	background-position:$bgPosition;
+	&:hover {
+		background-position:$bgHover;
+	}
+}
+.btn-shared-twitter {
+	background: url(../images/icon/social/twitter-hover-left.png);
+	background-position:$bgPosition;
+	&:hover {
+		background-position:$bgHover;
+	}
+}
+.btn-shared-email {
+	background: url(../images/icon/social/email-hover-left.png);
+	background-position:$bgPosition;
+	&:hover {
+		background-position:$bgHover;
+	}
+}

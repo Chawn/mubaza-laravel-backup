@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+#PAYMENT {
+
+}
+#PAYMENT li {
+    list-style:none;
+    display:inline;
+}
+#PAYMENT a {
+    font-size:16px;
+    text-decoration:none;
+    color:#000;
+    padding-right:20px;
+
+}
+
+
+#collapse-atm {
+    border:1px solid #000;
+    margin: 0 0 30px 0;
+}
+#atm {
+    margin: 10px 10px 10px 10px;
+}
+
+#collapse-creditcard {
+    border:1px solid #000;
+    margin: 0 0 30px 0;
+}
+#creditcard {
+    margin: 10px 10px 10px 10px;
+}
+#collapse-paypal {
+    border:1px solid #000;
+    margin: 0 0 30px 0;
+}
+#paypal {
+    margin: 10px 10px 10px 10px;
+}
+
+#summary {
+    background:#eee;
+    margin: 10px 0 30px 0;
+}
+#summary table {
+    width:100%;
+}
+#summary td {
+    line-height:30px;
+}
+#summary p {
+    display:inline;
+}
+
+#btn-payment {
+    height:50px;
+    width:500px;
+    margin: 50px 0 0 0;
+}

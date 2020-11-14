@@ -1,0 +1,98 @@
+/* line 8, landing.scss */
+#countdown {
+  border: 3px solid #223240;
+  background: #E74C3C;
+  padding: 0 0 10px 0;
+  width: 80%;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: 15px;
+}
+/* line 20, landing.scss */
+#countdown .title {
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  font-size: 60px;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  /* line 8, landing.scss */
+  #countdown {
+    letter-spacing: 8px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 8, landing.scss */
+  #countdown {
+    width: 100%;
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
+}
+
+/* line 35, landing.scss */
+#landing {
+  color: #fff;
+  padding-top: 45px;
+}
+/* line 38, landing.scss */
+#landing .jumbotron {
+  height: auto;
+}
+@media (max-width: 767px) {
+  /* line 35, landing.scss */
+  #landing {
+    padding-top: 35px;
+  }
+  /* line 44, landing.scss */
+  #landing .jumbotron h1 {
+    font-size: 30px;
+  }
+}
+/* line 50, landing.scss */
+#landing #countdown {
+  border: none;
+  background: #303030;
+  text-shadow: 2px 3px 2px #000;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  color: #ccc;
+  display: none;
+}
+@media (max-width: 767px) {
+  /* line 50, landing.scss */
+  #landing #countdown {
+    display: block;
+    font-size: 24px;
+    padding: 5px;
+  }
+}
+
+/* line 65, landing.scss */
+#GG7-logo {
+  max-height: 170px;
+  margin: 35px 0;
+}
+@media (max-width: 767px) {
+  /* line 65, landing.scss */
+  #GG7-logo {
+    width: 85%;
+    height: auto;
+    max-height: none;
+  }
+}
+
+/* line 78, landing.scss */
+.btn.btn-white.border {
+  border: 3px solid white;
+  color: white;
+  background: transparent;
+}
+/* line 82, landing.scss */
+.btn.btn-white.border:hover {
+  background: white;
+  color: #000;
+}

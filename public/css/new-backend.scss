@@ -1,0 +1,98 @@
+.tablesorter{
+	font-size:14px;
+	tr {
+		th{
+			&:hover{
+				cursor: n-resize;
+			}
+		}
+	}
+	
+}
+.clickable-row{		
+	&:hover{
+		td{
+			cursor: pointer;
+			background: rgba(52,152,219,0.1) !important;
+		}	
+	}	
+}
+
+#table-profit-detail {
+	tbody {
+		tr{
+			td{
+				
+			}
+			.product-img {
+				img{
+					width: 100%;
+					height: auto !important;
+				}
+			}
+		}
+	}
+}
+
+.btn-pay{
+	width:150px;
+}
+
+$border: 1px solid #ddd;
+.table-manufacture {
+	width: 100%;
+	background: #fff;
+	border: $border;
+	tr{
+		th{
+			line-height: 40px;
+			padding: 0 10px;
+			border: $border;
+			text-align: center;
+			background:#eee;
+			&:first-child{
+				text-align: left;
+			}
+		}
+		td{
+			padding: 10px;
+			text-align: left;
+			border: $border;
+			&:last-child{
+				text-align: center;
+			}
+			ol {
+				li {
+					line-height: 35px;
+				}
+			}
+			.input-tracking{
+				button{
+					height: 34px;
+    				box-shadow: none;
+				}
+			}
+		}		
+	}
+}
+
+.box{
+	.box-product-detail{
+		width: 100%;
+		border:$border;
+		margin: 10px 0;
+		.product-img{
+			display: inline-block;
+			img{
+				height: 200px;
+				width: auto;
+			}
+		}
+		.product-detail{
+			display: inline-block;
+			width: 50%;
+			vertical-align: top;
+			border-top:none;
+		}
+	}
+}

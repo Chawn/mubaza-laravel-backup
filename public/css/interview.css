@@ -1,0 +1,45 @@
+/* line 1, interview.scss */
+h1, h2, h3, h4 {
+  font-family: 'ThaiSansNeue-bold';
+  color: #244c7d;
+}
+
+/* line 6, interview.scss */
+.interview-box {
+  margin: 15px;
+}
+
+/* line 13, interview.scss */
+.interview-img {
+  margin: 15px;
+}
+/* line 15, interview.scss */
+.interview-img img {
+  width: 100%;
+}
+/* line 18, interview.scss */
+.interview-img .sub {
+  height: 250px;
+  width: auto !important;
+}
+
+/* line 23, interview.scss */
+.darkblue {
+  color: #244c7d;
+}
+
+/* line 26, interview.scss */
+.green {
+  color: #26a65b;
+}
+
+/* line 31, interview.scss */
+.ken .first .cover {
+  margin-bottom: 15px;
+}
+/* line 33, interview.scss */
+.ken .first .cover img {
+  width: 100%;
+  text-align: right;
+  background: #F8F3ED;
+}

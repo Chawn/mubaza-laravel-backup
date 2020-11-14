@@ -1,0 +1,123 @@
+/* line 3, order-tracking.scss */
+.well {
+  border-radius: 0px !important;
+  background: #fff;
+}
+
+/* line 7, order-tracking.scss */
+.flip-horizontal {
+  transform: rotateY(180deg);
+}
+
+/* line 11, order-tracking.scss */
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background: #eee;
+  color: #aaa;
+}
+/* line 20, order-tracking.scss */
+.circle i {
+  line-height: 60px;
+}
+
+/* line 26, order-tracking.scss */
+.order-step {
+  padding: 15px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #999;
+  margin-bottom: 30px;
+}
+/* line 32, order-tracking.scss */
+.order-step .step {
+  width: 18%;
+  display: inline-block;
+}
+/* line 35, order-tracking.scss */
+.order-step .step:nth-child(even) {
+  height: 60px;
+  border-bottom: 5px solid;
+}
+/* line 39, order-tracking.scss */
+.order-step .step.pass {
+  color: #26a65b;
+  border-color: #26a65b;
+}
+/* line 42, order-tracking.scss */
+.order-step .step.pass .circle {
+  background: #26a65b;
+}
+/* line 44, order-tracking.scss */
+.order-step .step.pass .circle i {
+  color: #fff;
+}
+@media (max-width: 321px) {
+  /* line 50, order-tracking.scss */
+  .order-step .step .step {
+    width: 60px;
+  }
+  /* line 52, order-tracking.scss */
+  .order-step .step .step:nth-child(even) {
+    width: 12%;
+  }
+}
+
+/* line 62, order-tracking.scss */
+.table thead tr th {
+  text-align: center;
+  background: #eeeeee;
+}
+
+/* line 76, order-tracking.scss */
+.form-horizontal {
+  padding: 30px 0;
+}
+/* line 80, order-tracking.scss */
+.form-horizontal .form-group .input-group .form-control {
+  border-radius: 0px;
+}
+/* line 84, order-tracking.scss */
+.form-horizontal .form-group .input-group .input-group-btn .btn {
+  border-radius: 0px;
+  padding: 13px 16px;
+  box-shadow: none;
+}
+
+/* line 93, order-tracking.scss */
+.panel {
+  border-radius: 0px !important;
+  border: 1px solid #dddddd;
+}
+/* line 96, order-tracking.scss */
+.panel .panel-heading {
+  border-radius: 0px !important;
+  border-bottom: 1px solid #dddddd;
+}
+/* line 99, order-tracking.scss */
+.panel .panel-heading .title {
+  margin: 0px;
+}
+/* line 104, order-tracking.scss */
+.panel .panel-body .media {
+  border-bottom: 1px solid #dddddd;
+}
+/* line 107, order-tracking.scss */
+.panel .panel-body .media .media-left .media-object {
+  width: 120px;
+}
+/* line 113, order-tracking.scss */
+.panel .panel-footer {
+  border-radius: 0px !important;
+  background: #ddd;
+  border-top: 1px solid #ddd;
+}
+/* line 117, order-tracking.scss */
+.panel .panel-footer .total {
+  margin: 0 15px 0 0;
+  text-align: right;
+}

@@ -1,0 +1,215 @@
+$profile:120px;
+$accountbg:#fff;
+body {
+    background:#fff;
+}
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    background:#fff;
+}
+.mobile-box {
+    background:#fff;
+    padding: 5px;
+    margin: 8px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    width: 100%;
+}
+.p-account-mobile{
+    padding:0px;
+    line-height: 30px;
+    border-bottom:1px solid #f1f1f1;
+    .btn-edit {
+      float: right;
+      margin-right: 0px;
+    }
+}
+.col-nonpadding{
+    padding:0px;
+    text-align: center;
+}
+.col-detail{
+    background:#fff;
+}
+.user-account{
+    width: 900px;
+    font-size: 16px;
+	min-height: 300px;
+    margin: 0px auto;
+    .user-sub-account-menu{
+        border-top:none;
+        ul {
+            li {
+                a{
+                    width: 125px;
+                }
+            }
+        }
+    }
+    .user-sub-account-menu-mobile{
+            display: none;
+    }
+    .box {
+        width: 100%;
+        padding:0;
+        .linetext{
+            border-bottom: solid 1px #eee;
+        }
+        .sub-title{
+            border-bottom: solid 1px #ccc;
+            margin: 20px 0 10px 0;
+            padding-bottom: 5px;
+
+        }
+        #show-profile{
+            width: $profile;
+            height: $profile;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+            -webkit-box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14), 0 0 0 8px white;
+            box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14), 0 0 0 8px white;
+            img{
+                width: 100%;
+            }
+        }
+        #edit-profile{
+            margin: 10px auto;
+            position: relative;
+            .upload{
+                position:absolute;
+                top: 0px;
+                left: 0px;
+                opacity: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        p{
+            
+            .btn-edit{
+                float: right;
+                margin-right: 15px;
+            }
+            .account-title{
+                width: 150px;
+                color: #9197a3;
+            }
+            .account-social {
+
+            }
+            .hide-overflow{
+                color: #555;
+            }
+        }
+        .user-sub-account-menu{
+          margin-bottom: 0px;
+        }
+    }
+    
+}
+
+
+@media (min-width:481px) and (max-width:800px){
+    .main{
+        padding:15px;
+        width: 95%;
+    }
+    .col-nonpadding{
+        padding:0px;
+    }
+    .user-account{
+        margin: 0 auto;
+        padding:15px;
+        width: 90%;
+        .user-sub-account-menu{
+
+        }
+        .user-sub-account-menu-mobile{
+
+        }
+        .box{
+
+        }
+    }
+}
+$font-size-mobile:12px;
+@media (min-width:481px) and (max-width:767px){
+    .main {
+        font-size: $font-size-mobile;
+        width: 500px;
+        .user-account {
+            width: 100%;
+            .user-sub-account-menu{
+                border-top:none;
+                ul {
+                    li {
+                        a{
+                            width: 110px;                            
+                        }
+                    }
+                }
+            }
+            .box{
+                #edit-profile {
+                    font-size: $font-size-mobile;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .main {
+        font-size: $font-size-mobile;
+        width: auto;
+        padding:0px;
+        .user-account{
+            margin: 0px;
+            width: auto;
+            .user-sub-account-menu{
+                display: none;
+            }
+            .user-sub-account-menu-mobile{
+                display: block;
+                margin-bottom: 15px;
+                border-top:none;
+                .sub-menu{
+                    border-top:none;
+                    ul {
+                    display: flex;
+                    justify-content: space-between;
+                    margin:auto;
+                    padding: 0 10px;
+                        li{
+                            width: auto;
+                        }
+                    }
+                }
+                
+            }
+            .box {
+
+                width: 90%;
+                margin:auto;
+                padding:15px 0;
+                #edit-profile {
+                    font-size: $font-size-mobile;
+                }
+                p{
+                    .account-title{
+                        display: block;
+                    }
+                    .account-social {
+                        display: inline-block;
+                    }
+                    .hide-overflow{
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+}

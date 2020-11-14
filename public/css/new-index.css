@@ -1,0 +1,8 @@
+/* line 2, new-index.scss */
+#section-slide .carousel-inner {
+  height: 400px;
+}
+/* line 4, new-index.scss */
+#section-slide .carousel-inner .bg-carousel {
+  height: 100%;
+}

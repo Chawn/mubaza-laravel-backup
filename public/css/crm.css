@@ -1,0 +1,515 @@
+/* line 17, crm.scss */
+.col-nonpadding {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 25, crm.scss */
+.box-body.box-menu {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 31, crm.scss */
+.btn-transparent {
+  background: transparent !important;
+  color: #333;
+  padding: 0px 10px;
+}
+/* line 35, crm.scss */
+.btn-transparent:hover {
+  cursor: pointer;
+}
+/* line 38, crm.scss */
+.btn-transparent i {
+  font-size: 24px;
+}
+
+/* line 43, crm.scss */
+.border-none {
+  border: none !important;
+}
+
+/* line 47, crm.scss */
+.btn-crm {
+  box-shadow: none !important;
+  display: block;
+  width: 100%;
+  margin: 4px 0;
+}
+
+/* line 53, crm.scss */
+.btn-tools-group {
+  text-align: center;
+  padding: 10px 0 10px 0px;
+}
+/* line 56, crm.scss */
+.btn-tools-group .btn-tools {
+  box-shadow: none !important;
+  width: 30%;
+}
+
+/* line 64, crm.scss */
+.docbox {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+/* line 68, crm.scss */
+.docbox:hover {
+  cursor: pointer;
+}
+/* line 71, crm.scss */
+.docbox .select {
+  position: absolute;
+  top: 2px;
+  right: 17px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+/* line 78, crm.scss */
+.docbox .select input[type=checkbox] {
+  visibility: hidden;
+  position: absolute;
+}
+/* line 81, crm.scss */
+.docbox .select input[type=checkbox] + label {
+  color: transparent;
+}
+/* line 84, crm.scss */
+.docbox .select input[type=checkbox]:checked + label {
+  color: #5cb85c;
+  text-align: center;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+}
+/* line 92, crm.scss */
+.docbox .select input[type=checkbox]:checked + label i {
+  font-size: 50px;
+}
+/* line 101, crm.scss */
+.docbox .docbox-head {
+  border-bottom: 1px solid #ddd;
+}
+/* line 103, crm.scss */
+.docbox .docbox-head .docbox-customer {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 8px solid;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+  background-image: url("../images/sample_profile.png");
+  background-size: contain;
+}
+/* line 114, crm.scss */
+.docbox .docbox-head .docbox-customer img {
+  width: 100%;
+}
+/* line 119, crm.scss */
+.docbox .docbox-head .docbox-header {
+  text-align: left;
+}
+/* line 123, crm.scss */
+.docbox .docbox-head .docbox-header p.org {
+  color: #428bca;
+}
+/* line 126, crm.scss */
+.docbox .docbox-head .docbox-header p.shop {
+  color: #5cb85c;
+}
+/* line 133, crm.scss */
+.docbox .docbox-detail {
+  border-bottom: 1px solid #ddd;
+}
+/* line 135, crm.scss */
+.docbox .docbox-detail table {
+  width: 100%;
+}
+/* line 139, crm.scss */
+.docbox .docbox-detail table tbody tr td {
+  padding: 8px 4px;
+}
+/* line 141, crm.scss */
+.docbox .docbox-detail table tbody tr td:first-child {
+  width: 10%;
+}
+/* line 149, crm.scss */
+.docbox .docbox-detail img {
+  width: 100%;
+}
+/* line 153, crm.scss */
+.docbox .docbox-total {
+  border-top: 2px solid #555;
+  border-bottom: 2px solid #555;
+  text-align: right;
+  margin: 5px 0;
+}
+/* line 162, crm.scss */
+.docbox .showmore {
+  text-align: center;
+}
+/* line 164, crm.scss */
+.docbox .showmore .btn-show {
+  width: 100%;
+}
+/* line 170, crm.scss */
+.docbox.product .docbox-head {
+  height: 50px;
+}
+/* line 173, crm.scss */
+.docbox.product .docbox-detail {
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 177, crm.scss */
+.docbox.product .docbox-detail .icon {
+  font-size: 120px;
+  color: #53A951;
+  margin-top: 15px;
+}
+
+/* line 186, crm.scss */
+.tools-group {
+  border-bottom: 1px solid #ddd;
+}
+/* line 188, crm.scss */
+.tools-group .list-group-item {
+  border: none;
+}
+/* line 190, crm.scss */
+.tools-group .list-group-item label {
+  text-align: center;
+  display: block;
+}
+/* line 195, crm.scss */
+.tools-group .list-group-item a i {
+  margin-right: 5px;
+}
+/* line 199, crm.scss */
+.tools-group .list-group-item .sub-list {
+  border: 1px dotted #dddddd;
+}
+/* line 201, crm.scss */
+.tools-group .list-group-item .sub-list .list-group-item {
+  border: none;
+}
+
+/* line 208, crm.scss */
+.box-sub {
+  padding: 5px 0 15px 0px;
+  margin-bottom: 10px;
+  border-bottom: 1px dotted #dddddd;
+}
+/* line 212, crm.scss */
+.box-sub .sub-header {
+  height: 45px;
+  vertical-align: middle;
+  padding-top: 10px;
+}
+/* line 216, crm.scss */
+.box-sub .sub-header h4 {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+/* line 221, crm.scss */
+.box-sub .list-group {
+  margin-top: 15px;
+  border: 1px dotted #dddddd;
+}
+/* line 224, crm.scss */
+.box-sub .list-group .list-group-item {
+  border: none;
+  padding: 2px 15px;
+}
+/* line 227, crm.scss */
+.box-sub .list-group .list-group-item .badge {
+  background: #337ab7;
+  color: #fff;
+}
+/* line 231, crm.scss */
+.box-sub .list-group .list-group-item a {
+  display: block;
+  border-bottom: 1px dotted #dddddd;
+  padding: 8px 4px;
+  color: #337ab7;
+}
+/* line 236, crm.scss */
+.box-sub .list-group .list-group-item a:hover {
+  background: #fafafa;
+}
+/* line 240, crm.scss */
+.box-sub .list-group .list-group-item .sub-list {
+  border-bottom: 1px dotted #dddddd;
+  margin-bottom: 0px;
+}
+/* line 243, crm.scss */
+.box-sub .list-group .list-group-item .sub-list .list-group-item {
+  border-bottom: none;
+  padding: 2px 0 0 15px;
+}
+/* line 246, crm.scss */
+.box-sub .list-group .list-group-item .sub-list .list-group-item a {
+  border: none;
+  color: #989898;
+}
+/* line 250, crm.scss */
+.box-sub .list-group .list-group-item .sub-list .list-group-item .badge {
+  background: none;
+  color: #989898;
+}
+
+/* line 261, crm.scss */
+#po-menu {
+  margin-right: 15px;
+}
+/* line 263, crm.scss */
+#po-menu .list-group {
+  padding: 5px 0;
+}
+
+/* line 268, crm.scss */
+.tab-content {
+  padding-top: 10px;
+}
+/* line 271, crm.scss */
+.tab-content .tab-pane .panel {
+  border-radius: 0px;
+}
+/* line 273, crm.scss */
+.tab-content .tab-pane .panel .panel-heading {
+  border-radius: 0px;
+}
+/* line 279, crm.scss */
+.tab-content .tab-pane .panel .panel-heading.subheading .nav.nav-pills li a {
+  border-bottom: 3px solid transparent;
+  border-top: none;
+}
+/* line 284, crm.scss */
+.tab-content .tab-pane .panel .panel-heading.subheading .nav.nav-pills li.active a {
+  background: #3380cd;
+  border-bottom-color: #286090;
+}
+/* line 290, crm.scss */
+.tab-content .tab-pane .panel .panel-heading.subheading .nav.nav-pills li:hover a {
+  border-bottom-color: #286090;
+}
+/* line 300, crm.scss */
+.tab-content .tab-pane .panel.panel-default {
+  border-color: #aaa;
+}
+/* line 302, crm.scss */
+.tab-content .tab-pane .panel.panel-default .panel-heading {
+  background: #ddd;
+  border-color: #aaa;
+}
+
+/* line 313, crm.scss */
+.bg-info.showinput {
+  padding: 6px 12px;
+  margin-left: 5px;
+  border: 1px solid #3380cd;
+}
+
+/* line 324, crm.scss */
+.table-product thead tr th {
+  text-align: center;
+  line-height: 45px;
+  border-bottom: 2px solid #dddddd;
+}
+/* line 333, crm.scss */
+.table-product tbody tr td {
+  padding: 10px 5px;
+  text-align: center;
+  border-bottom: 1px dotted #dddddd;
+}
+/* line 337, crm.scss */
+.table-product tbody tr td:first-child {
+  text-align: left;
+}
+/* line 343, crm.scss */
+.table-product tbody tr:last-child td {
+  border: none;
+}
+/* line 348, crm.scss */
+.table-product tbody .tools {
+  background: #fafafa;
+}
+/* line 352, crm.scss */
+.table-product .btn-success {
+  box-shadow: none;
+}
+
+/* line 358, crm.scss */
+.form-horizontal.form-total .form-group {
+  margin-bottom: 0px;
+}
+/* line 360, crm.scss */
+.form-horizontal.form-total .form-group .detail {
+  padding-top: 7px;
+}
+
+/* line 370, crm.scss */
+.nav.nav-square {
+  border-bottom: 2px solid #3380cd;
+  background: #f5f5f5;
+}
+/* line 373, crm.scss */
+.nav.nav-square li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 0;
+  float: left;
+}
+/* line 378, crm.scss */
+.nav.nav-square li a {
+  width: 140px;
+  border-radius: 0px;
+}
+/* line 383, crm.scss */
+.nav.nav-square li.active a {
+  background: #3380cd;
+  color: #fff;
+  border: 1px solid;
+  border-color: #3380cd;
+}
+
+/* line 394, crm.scss */
+.select-item {
+  width: 100%;
+}
+/* line 396, crm.scss */
+.select-item .left-item {
+  width: 50%;
+  display: inline-block;
+  float: left;
+}
+/* line 403, crm.scss */
+.select-item .left-item .image {
+  height: 150px;
+  overflow: hidden;
+}
+/* line 406, crm.scss */
+.select-item .left-item .image img {
+  width: 100%;
+}
+/* line 411, crm.scss */
+.select-item .right-item {
+  width: 50%;
+  display: inline-block;
+}
+/* line 416, crm.scss */
+.select-item .right-item .color-chart .box-color {
+  width: 75px;
+  height: 70px;
+  border: 1px dotted #dddddd;
+  display: inline-block;
+  text-align: center;
+  float: left;
+}
+/* line 423, crm.scss */
+.select-item .right-item .color-chart .box-color .circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: auto;
+  margin-top: 5px;
+}
+
+/* line 443, crm.scss */
+.modal.full-screen .modal-dialog {
+  width: 100%;
+  margin: 0px;
+}
+/* line 446, crm.scss */
+.modal.full-screen .modal-dialog button.close {
+  font-size: 34px;
+  font-weight: 100;
+}
+
+/* line 455, crm.scss */
+.modal-footer .btn-success {
+  box-shadow: none;
+}
+/* line 458, crm.scss */
+.modal-footer .choose {
+  width: 120px;
+}
+
+/* line 463, crm.scss */
+.modal-customer .tab-content {
+  height: 380px;
+  overflow: scroll;
+  padding: 25px;
+  border: 1px solid #3380cd;
+  border-top: none;
+}
+/* line 470, crm.scss */
+.modal-customer .panel-body {
+  height: 350px;
+  overflow: scroll;
+  padding: 25px;
+}
+/* line 475, crm.scss */
+.modal-customer .sub-header {
+  height: 50px;
+  vertical-align: middle;
+}
+/* line 478, crm.scss */
+.modal-customer .sub-header h3 {
+  margin-top: 0px;
+}
+/* line 482, crm.scss */
+.modal-customer .close {
+  font-size: 35px;
+  font-weight: 100;
+}
+
+/* line 487, crm.scss */
+.table-modal {
+  width: 100%;
+}
+/* line 491, crm.scss */
+.table-modal thead tr th {
+  padding: 10px 12px;
+  background: #fafafa;
+  border: 1px solid #dddddd;
+}
+/* line 495, crm.scss */
+.table-modal thead tr th:first-child {
+  text-align: center;
+}
+/* line 507, crm.scss */
+.table-modal tbody tr td {
+  padding: 8px 12px;
+  border: 1px solid #dddddd;
+}
+/* line 510, crm.scss */
+.table-modal tbody tr td:first-child {
+  text-align: center;
+}
+/* line 519, crm.scss */
+.table-modal tbody tr:hover td {
+  cursor: pointer;
+  background: #fafafa;
+}
+/* line 527, crm.scss */
+.table-modal .radio-group input[type=radio] {
+  display: none;
+}
+/* line 530, crm.scss */
+.table-modal .radio-group input[type=radio]:checked + label {
+  color: #55bd53;
+}
+/* line 533, crm.scss */
+.table-modal .radio-group label {
+  color: #ddd;
+  font-size: 18px;
+}

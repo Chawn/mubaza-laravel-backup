@@ -1,0 +1,229 @@
+/* line 3, user-account.scss */
+body {
+  background: #fff;
+}
+
+/* line 6, user-account.scss */
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+
+/* line 11, user-account.scss */
+.mobile-box {
+  background: #fff;
+  padding: 5px;
+  margin: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+/* line 19, user-account.scss */
+.p-account-mobile {
+  padding: 0px;
+  line-height: 30px;
+  border-bottom: 1px solid #f1f1f1;
+}
+/* line 23, user-account.scss */
+.p-account-mobile .btn-edit {
+  float: right;
+  margin-right: 0px;
+}
+
+/* line 28, user-account.scss */
+.col-nonpadding {
+  padding: 0px;
+  text-align: center;
+}
+
+/* line 32, user-account.scss */
+.col-detail {
+  background: #fff;
+}
+
+/* line 35, user-account.scss */
+.user-account {
+  width: 900px;
+  font-size: 16px;
+  min-height: 300px;
+  margin: 0px auto;
+}
+/* line 40, user-account.scss */
+.user-account .user-sub-account-menu {
+  border-top: none;
+}
+/* line 44, user-account.scss */
+.user-account .user-sub-account-menu ul li a {
+  width: 125px;
+}
+/* line 50, user-account.scss */
+.user-account .user-sub-account-menu-mobile {
+  display: none;
+}
+/* line 53, user-account.scss */
+.user-account .box {
+  width: 100%;
+  padding: 0;
+}
+/* line 56, user-account.scss */
+.user-account .box .linetext {
+  border-bottom: solid 1px #eee;
+}
+/* line 59, user-account.scss */
+.user-account .box .sub-title {
+  border-bottom: solid 1px #ccc;
+  margin: 20px 0 10px 0;
+  padding-bottom: 5px;
+}
+/* line 65, user-account.scss */
+.user-account .box #show-profile {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14), 0 0 0 8px white;
+  box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14), 0 0 0 8px white;
+}
+/* line 74, user-account.scss */
+.user-account .box #show-profile img {
+  width: 100%;
+}
+/* line 78, user-account.scss */
+.user-account .box #edit-profile {
+  margin: 10px auto;
+  position: relative;
+}
+/* line 81, user-account.scss */
+.user-account .box #edit-profile .upload {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 92, user-account.scss */
+.user-account .box p .btn-edit {
+  float: right;
+  margin-right: 15px;
+}
+/* line 96, user-account.scss */
+.user-account .box p .account-title {
+  width: 150px;
+  color: #9197a3;
+}
+/* line 103, user-account.scss */
+.user-account .box p .hide-overflow {
+  color: #555;
+}
+/* line 107, user-account.scss */
+.user-account .box .user-sub-account-menu {
+  margin-bottom: 0px;
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  /* line 116, user-account.scss */
+  .main {
+    padding: 15px;
+    width: 95%;
+  }
+
+  /* line 120, user-account.scss */
+  .col-nonpadding {
+    padding: 0px;
+  }
+
+  /* line 123, user-account.scss */
+  .user-account {
+    margin: 0 auto;
+    padding: 15px;
+    width: 90%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 140, user-account.scss */
+  .main {
+    font-size: 12px;
+    width: 500px;
+  }
+  /* line 143, user-account.scss */
+  .main .user-account {
+    width: 100%;
+  }
+  /* line 145, user-account.scss */
+  .main .user-account .user-sub-account-menu {
+    border-top: none;
+  }
+  /* line 149, user-account.scss */
+  .main .user-account .user-sub-account-menu ul li a {
+    width: 110px;
+  }
+  /* line 156, user-account.scss */
+  .main .user-account .box #edit-profile {
+    font-size: 12px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 165, user-account.scss */
+  .main {
+    font-size: 12px;
+    width: auto;
+    padding: 0px;
+  }
+  /* line 169, user-account.scss */
+  .main .user-account {
+    margin: 0px;
+    width: auto;
+  }
+  /* line 172, user-account.scss */
+  .main .user-account .user-sub-account-menu {
+    display: none;
+  }
+  /* line 175, user-account.scss */
+  .main .user-account .user-sub-account-menu-mobile {
+    display: block;
+    margin-bottom: 15px;
+    border-top: none;
+  }
+  /* line 179, user-account.scss */
+  .main .user-account .user-sub-account-menu-mobile .sub-menu {
+    border-top: none;
+  }
+  /* line 181, user-account.scss */
+  .main .user-account .user-sub-account-menu-mobile .sub-menu ul {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0 10px;
+  }
+  /* line 186, user-account.scss */
+  .main .user-account .user-sub-account-menu-mobile .sub-menu ul li {
+    width: auto;
+  }
+  /* line 193, user-account.scss */
+  .main .user-account .box {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+  }
+  /* line 198, user-account.scss */
+  .main .user-account .box #edit-profile {
+    font-size: 12px;
+  }
+  /* line 202, user-account.scss */
+  .main .user-account .box p .account-title {
+    display: block;
+  }
+  /* line 205, user-account.scss */
+  .main .user-account .box p .account-social {
+    display: inline-block;
+  }
+  /* line 208, user-account.scss */
+  .main .user-account .box p .hide-overflow {
+    width: 80%;
+  }
+}

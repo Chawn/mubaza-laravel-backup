@@ -1,0 +1,374 @@
+/* line 22, print-customer-address.scss */
+body {
+  margin: 0px;
+  font-family: 'tahoma';
+}
+
+/* line 26, print-customer-address.scss */
+.page-a6 {
+  width: 487px;
+  height: 675px;
+  padding: 7px;
+}
+/* line 30, print-customer-address.scss */
+.page-a6 .header {
+  border-bottom: 1px solid black;
+}
+/* line 35, print-customer-address.scss */
+.page-a6 .header table tbody tr td {
+  vertical-align: top;
+}
+/* line 41, print-customer-address.scss */
+.page-a6 .header p {
+  margin: 2px 0;
+}
+/* line 45, print-customer-address.scss */
+.page-a6 .address {
+  border-bottom: 1px solid black;
+}
+
+/* line 51, print-customer-address.scss */
+.page-a5 {
+  width: 974px;
+  height: 675px;
+  border-bottom: 1px solid #dddddd;
+  padding: 10px 0;
+}
+/* line 56, print-customer-address.scss */
+.page-a5 .label {
+  width: 937px;
+  height: 618px;
+  margin: auto;
+}
+
+/* line 64, print-customer-address.scss */
+.page-a44 {
+  width: 954px;
+  height: 317px;
+}
+/* line 70, print-customer-address.scss */
+.page-a44 table tbody tr td {
+  vertical-align: top;
+}
+/* line 78, print-customer-address.scss */
+.page-a44 .header .detail p {
+  font-size: 13px;
+  margin: 2px 0;
+}
+/* line 82, print-customer-address.scss */
+.page-a44 .header .detail h4 {
+  margin: 2px 0;
+}
+/* line 89, print-customer-address.scss */
+.page-a44 .barcode .head .orderid {
+  display: inline-block;
+  float: left;
+  width: 45%;
+  background: #000;
+  color: #fff;
+  line-height: 24px;
+  padding: 0px 5px;
+}
+/* line 98, print-customer-address.scss */
+.page-a44 .barcode .head .tringle {
+  display: inline-block;
+  float: left;
+  width: 0;
+  height: 0;
+  border-top: 24px solid transparent;
+  border-left: 24px solid black;
+}
+/* line 106, print-customer-address.scss */
+.page-a44 .barcode .head .qty {
+  display: inline-block;
+  width: 45%;
+  text-align: right;
+  line-height: 24px;
+}
+/* line 113, print-customer-address.scss */
+.page-a44 .barcode .order {
+  border: 1px solid black;
+  padding: 5px;
+  max-height: 193px;
+}
+/* line 117, print-customer-address.scss */
+.page-a44 .barcode .order .item {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+}
+/* line 120, print-customer-address.scss */
+.page-a44 .barcode .order .item p {
+  margin: 3px 0;
+  font-size: 12px;
+}
+/* line 124, print-customer-address.scss */
+.page-a44 .barcode .order .item .text-indent {
+  margin-left: 25px;
+}
+/* line 126, print-customer-address.scss */
+.page-a44 .barcode .order .item .text-indent span {
+  float: right;
+  margin-right: 10px;
+}
+/* line 131, print-customer-address.scss */
+.page-a44 .barcode .order .item:last-child {
+  border: none;
+}
+/* line 136, print-customer-address.scss */
+.page-a44 .barcode .seemore {
+  font-size: 10px;
+  margin: 2px 15px 0 0;
+  font-weight: 600;
+  float: right;
+}
+/* line 143, print-customer-address.scss */
+.page-a44 .box-barcode {
+  height: 50px;
+  border: none;
+}
+/* line 146, print-customer-address.scss */
+.page-a44 .box-barcode .shipment-way {
+  display: inline-block;
+  width: 130px;
+  text-align: center;
+  line-height: 35px;
+}
+/* line 152, print-customer-address.scss */
+.page-a44 .box-barcode .order-id {
+  text-align: center;
+  width: 330px;
+  float: right;
+  margin-top: 5px;
+}
+/* line 157, print-customer-address.scss */
+.page-a44 .box-barcode .order-id p {
+  margin: 0 35px 0 0;
+  font-size: 14px;
+}
+/* line 161, print-customer-address.scss */
+.page-a44 .box-barcode .order-id .bcTarget {
+  float: right;
+  margin-right: 10px;
+}
+/* line 167, print-customer-address.scss */
+.page-a44 .qrcode {
+  width: 75px;
+}
+/* line 169, print-customer-address.scss */
+.page-a44 .qrcode img {
+  width: 100%;
+}
+/* line 173, print-customer-address.scss */
+.page-a44 .address {
+  padding: 10px 15px;
+}
+/* line 175, print-customer-address.scss */
+.page-a44 .address table {
+  border: 2px solid #000;
+  padding: 0 5px;
+  width: 100%;
+}
+/* line 182, print-customer-address.scss */
+.page-a44 .address table tbody tr td p {
+  margin: 2px 0px;
+}
+/* line 185, print-customer-address.scss */
+.page-a44 .address table tbody tr td .zipcode {
+  letter-spacing: 20px;
+}
+/* line 188, print-customer-address.scss */
+.page-a44 .address table tbody tr td h2 {
+  margin: 5px 0;
+}
+
+/* line 197, print-customer-address.scss */
+.page-3a4 {
+  width: 974px;
+  height: 450px;
+}
+/* line 200, print-customer-address.scss */
+.page-3a4 .label {
+  width: 937px;
+  height: 420px;
+  margin: auto;
+}
+/* line 205, print-customer-address.scss */
+.page-3a4 .label tr td {
+  vertical-align: top;
+}
+
+/* line 211, print-customer-address.scss */
+.page {
+  width: 974px;
+  height: 1350px;
+  /*
+  max-height: 1376px;
+  */
+  border-spacing: 0px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 221, print-customer-address.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 227, print-customer-address.scss */
+.box-order .box-order-header .box-logo {
+  display: inline-block;
+  float: left;
+  width: 60px;
+  margin-right: 15px;
+}
+/* line 232, print-customer-address.scss */
+.box-order .box-order-header .box-logo .logo {
+  width: 100%;
+}
+/* line 236, print-customer-address.scss */
+.box-order .box-order-header .box-header {
+  text-align: center;
+}
+/* line 241, print-customer-address.scss */
+.box-order .box-order-body .box-head {
+  background: #555 !important;
+  height: 30px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 30px;
+  vertical-align: middle;
+  padding-left: 15px;
+  font-size: 16px;
+  border: 1px solid black;
+  border-bottom: none;
+}
+/* line 255, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail {
+  width: 100%;
+  border: none;
+}
+/* line 258, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail thead {
+  background: #ddd;
+  padding: 10px;
+}
+/* line 261, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail thead tr {
+  height: 30px;
+}
+/* line 263, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail thead tr th {
+  border: 1px solid black;
+  border-left: none;
+}
+/* line 266, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail thead tr th:first-child {
+  border-left: 1px solid black;
+}
+/* line 270, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail thead tr .box-head {
+  text-align: left;
+  border-bottom: none;
+}
+/* line 278, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail tbody tr td {
+  vertical-align: middle;
+  height: auto;
+  padding: 6px 10px;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  text-align: center;
+  border-left: none;
+}
+/* line 287, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail tbody tr td:first-child {
+  border-left: 1px solid black;
+  text-align: left;
+}
+/* line 293, print-customer-address.scss */
+.box-order .box-order-body .detail .table-detail tbody tr:last-child td {
+  border-bottom: 1px solid black;
+}
+
+/* line 304, print-customer-address.scss */
+.box-caution {
+  padding: 0 15px;
+  height: 155px;
+  border: 1px solid black;
+}
+
+/* line 309, print-customer-address.scss */
+.box-shipment {
+  width: 100%;
+}
+/* line 311, print-customer-address.scss */
+.box-shipment table {
+  width: 100%;
+  height: 140px;
+  border: 1px solid black;
+}
+/* line 316, print-customer-address.scss */
+.box-shipment table tr td {
+  height: auto;
+  border: none;
+  vertical-align: middle;
+}
+/* line 320, print-customer-address.scss */
+.box-shipment table tr td:first-child {
+  border-right: 1px solid black;
+}
+/* line 324, print-customer-address.scss */
+.box-shipment table tr .shipment-way {
+  width: 45%;
+}
+/* line 327, print-customer-address.scss */
+.box-shipment table tr .shipment-id {
+  text-align: center;
+  width: 55%;
+}
+
+/* line 335, print-customer-address.scss */
+.from {
+  padding: 10px;
+  border: 1px solid black;
+  border-top: none;
+}
+
+/* line 340, print-customer-address.scss */
+.box-customer {
+  border: 1px solid black;
+  border-top: 1px solid transparent;
+  padding: 0 10px;
+}
+/* line 347, print-customer-address.scss */
+.box-customer .box-customer-address {
+  font-size: 16px;
+}
+/* line 350, print-customer-address.scss */
+.box-customer .zipcode {
+  text-align: right;
+  padding-right: 30px;
+  letter-spacing: 10px;
+}
+
+/* line 357, print-customer-address.scss */
+.box-barcode {
+  height: 155px;
+  border: 1px solid black;
+}
+/* line 360, print-customer-address.scss */
+.box-barcode .order-id {
+  text-align: center;
+  width: 350px;
+  float: right;
+  margin-top: 30px;
+}
+/* line 365, print-customer-address.scss */
+.box-barcode .order-id h4 {
+  margin: 0 20px 0 0;
+}
+/* line 369, print-customer-address.scss */
+.box-barcode .order-id .bcTarget {
+  float: right;
+  margin-right: 10px;
+}

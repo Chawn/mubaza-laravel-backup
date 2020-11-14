@@ -1,0 +1,86 @@
+/* line 1, new-backend.scss */
+.tablesorter {
+  font-size: 14px;
+}
+/* line 5, new-backend.scss */
+.tablesorter tr th:hover {
+  cursor: n-resize;
+}
+
+/* line 14, new-backend.scss */
+.clickable-row:hover td {
+  cursor: pointer;
+  background: rgba(52, 152, 219, 0.1) !important;
+}
+
+/* line 28, new-backend.scss */
+#table-profit-detail tbody tr .product-img img {
+  width: 100%;
+  height: auto !important;
+}
+
+/* line 37, new-backend.scss */
+.btn-pay {
+  width: 150px;
+}
+
+/* line 42, new-backend.scss */
+.table-manufacture {
+  width: 100%;
+  background: #fff;
+  border: 1px solid #dddddd;
+}
+/* line 47, new-backend.scss */
+.table-manufacture tr th {
+  line-height: 40px;
+  padding: 0 10px;
+  border: 1px solid #dddddd;
+  text-align: center;
+  background: #eee;
+}
+/* line 53, new-backend.scss */
+.table-manufacture tr th:first-child {
+  text-align: left;
+}
+/* line 57, new-backend.scss */
+.table-manufacture tr td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #dddddd;
+}
+/* line 61, new-backend.scss */
+.table-manufacture tr td:last-child {
+  text-align: center;
+}
+/* line 65, new-backend.scss */
+.table-manufacture tr td ol li {
+  line-height: 35px;
+}
+/* line 70, new-backend.scss */
+.table-manufacture tr td .input-tracking button {
+  height: 34px;
+  box-shadow: none;
+}
+
+/* line 80, new-backend.scss */
+.box .box-product-detail {
+  width: 100%;
+  border: 1px solid #dddddd;
+  margin: 10px 0;
+}
+/* line 84, new-backend.scss */
+.box .box-product-detail .product-img {
+  display: inline-block;
+}
+/* line 86, new-backend.scss */
+.box .box-product-detail .product-img img {
+  height: 200px;
+  width: auto;
+}
+/* line 91, new-backend.scss */
+.box .box-product-detail .product-detail {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  border-top: none;
+}

@@ -1,0 +1,441 @@
+/*user header*/
+/* line 9, user-header.scss */
+.bg-dashboard {
+  background: #fff;
+}
+
+/* line 12, user-header.scss */
+.btn-view, #user-header #other #in-other .btn-view {
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border-radius: 40px;
+  display: inline-block;
+  background: #fafafa;
+  color: #555555;
+  border: 1px solid #ccc;
+  text-decoration: none;
+  cursor: auto;
+}
+
+/* line 29, user-header.scss */
+#user-header {
+  position: relative;
+  text-align: center;
+  background: #fff;
+}
+/* line 34, user-header.scss */
+#user-header #other {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  text-align: right;
+  /* background:#F5F7F7;
+  border-bottom:1px solid #ddd; */
+}
+/* line 42, user-header.scss */
+#user-header #other #in-other {
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 46, user-header.scss */
+#user-header #other #in-other .btn-other {
+  border-radius: 35px;
+  display: inline-block;
+  background: #fff;
+  color: #555555;
+}
+/* line 55, user-header.scss */
+#user-header #other #in-other .followed {
+  color: #3879d9;
+}
+/* line 58, user-header.scss */
+#user-header #other #in-other .dropdown {
+  display: inline-block;
+}
+/* line 61, user-header.scss */
+#user-header #other #in-other .btn-share {
+  width: 33px;
+  height: 33px;
+  padding: 10px 11px;
+}
+/* line 66, user-header.scss */
+#user-header #other #in-other #report-user {
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  padding: 10px;
+}
+/* line 72, user-header.scss */
+#user-header #other #in-other .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+/* line 77, user-header.scss */
+#user-header #other #in-other #dropdown-share li {
+  float: none;
+}
+/* line 79, user-header.scss */
+#user-header #other #in-other #dropdown-share li a {
+  padding: 5px 15px;
+}
+/* line 82, user-header.scss */
+#user-header #other #in-other #dropdown-share li a:hover {
+  background: #fff;
+  color: #555555;
+}
+/* line 85, user-header.scss */
+#user-header #other #in-other #dropdown-share li a:hover img {
+  -webkit-filter: grayscale(30%);
+  -moz-filter: grayscale(30%);
+  -o-filter: grayscale(30%);
+  filter: grayscale(30%);
+}
+/* line 97, user-header.scss */
+#user-header #box-profile #profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: auto;
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+  overflow: hidden;
+  border: 3px solid #FFF;
+  z-index: 500;
+  background-color: #FFF;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  		/* -webkit-box-shadow: inset 0 0 0 -2px rgba(255,255,255,0.48),0 0 0 1px rgba(0,0,0,0.14),0 0 0 8px #fff;
+    		box-shadow: inset 0 0 0 -2px rgba(255,255,255,0.48),0 0 0 1px rgba(0,0,0,0.14),0 0 0 8px #fff; */
+}
+/* line 122, user-header.scss */
+#user-header #user-detail {
+  width: 500px;
+  margin: auto;
+}
+/* line 125, user-header.scss */
+#user-header #user-detail .user-title {
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 1.2;
+  margin: -5px 0 5px;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Open Sans",Geneva,Verdana,sans-serif!important;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  letter-spacing: -0.04em;
+}
+/* line 137, user-header.scss */
+#user-header #user-detail .user-detail {
+  color: #555555;
+  margin: 2px 0;
+}
+/* line 142, user-header.scss */
+#user-header #social {
+  padding: 15px 0;
+}
+/* line 144, user-header.scss */
+#user-header #social ul {
+  padding: 0px;
+}
+/* line 146, user-header.scss */
+#user-header #social ul li {
+  display: inline-block;
+  padding: 5px 10px 5px 0px;
+}
+/* line 149, user-header.scss */
+#user-header #social ul li a {
+  text-decoration: none;
+  color: #555555;
+  font-size: 18px;
+}
+/* line 160, user-header.scss */
+#user-header #box-mobile-btn {
+  display: none;
+}
+
+/*modal*/
+/* line 166, user-header.scss */
+#modal-qrcodeline .modal-dialog {
+  background: #fff;
+}
+/* line 169, user-header.scss */
+#modal-qrcodeline .modal-body {
+  text-align: center;
+}
+/* line 171, user-header.scss */
+#modal-qrcodeline .modal-body img {
+  width: 100%;
+}
+
+/* line 177, user-header.scss */
+#modal-report .modal-dialog {
+  background: #fff;
+}
+/* line 180, user-header.scss */
+#modal-report .modal-body .ul-report {
+  list-style: none;
+}
+/* line 182, user-header.scss */
+#modal-report .modal-body .ul-report li:hover {
+  cursor: pointer;
+}
+/* line 184, user-header.scss */
+#modal-report .modal-body .ul-report li:hover label {
+  cursor: pointer;
+}
+
+@media (min-width: 801px) {
+  /* line 192, user-header.scss */
+  #user-mobile-menu {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 800px) {
+  /* line 199, user-header.scss */
+  #user-header #other {
+    width: 100%;
+  }
+  /* line 201, user-header.scss */
+  #user-header #other #in-other {
+    width: 100%;
+  }
+  /* line 205, user-header.scss */
+  #user-header #user-detail {
+    width: 80%;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 212, user-header.scss */
+  #user-header #other {
+    width: 100%;
+  }
+  /* line 214, user-header.scss */
+  #user-header #other #in-other {
+    display: none;
+  }
+  /* line 218, user-header.scss */
+  #user-header #box-mobile-btn {
+    display: block;
+    padding-bottom: 10px;
+  }
+  /* line 221, user-header.scss */
+  #user-header #box-mobile-btn .btn-other {
+    font-size: 14px;
+    border-radius: 40px;
+    display: inline-block;
+    background: #fafafa;
+    color: #555555;
+  }
+  /* line 228, user-header.scss */
+  #user-header #box-mobile-btn .followed {
+    color: #3879d9;
+  }
+  /* line 232, user-header.scss */
+  #user-header #box-mobile-btn .btn-share {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* line 238, user-header.scss */
+  #user-header #box-mobile-btn #report-user {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* line 244, user-header.scss */
+  #user-header #box-mobile-btn .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  /* line 248, user-header.scss */
+  #user-header #box-mobile-btn .dropdown {
+    display: inline-block;
+  }
+  /* line 254, user-header.scss */
+  #user-header #about ul li {
+    width: 110px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 265, user-header.scss */
+  .full-col {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* line 270, user-header.scss */
+  #user-header #other {
+    width: 100%;
+  }
+  /* line 272, user-header.scss */
+  #user-header #other #in-other {
+    display: none;
+  }
+  /* line 276, user-header.scss */
+  #user-header #user-detail {
+    width: 100%;
+  }
+  /* line 282, user-header.scss */
+  #user-header .btn-view, #user-header #other #in-other .btn-view, #user-header .btn-view {
+    font-size: 12px;
+  }
+  /* line 286, user-header.scss */
+  #user-header #box-mobile-btn {
+    display: block;
+    padding-bottom: 10px;
+  }
+  /* line 289, user-header.scss */
+  #user-header #box-mobile-btn .btn-other {
+    font-size: 12px;
+    border-radius: 40px;
+    display: inline-block;
+    background: #fafafa;
+    color: #555555;
+  }
+  /* line 296, user-header.scss */
+  #user-header #box-mobile-btn .followed {
+    color: #3879d9;
+  }
+  /* line 300, user-header.scss */
+  #user-header #box-mobile-btn .btn-share {
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* line 306, user-header.scss */
+  #user-header #box-mobile-btn #report-user {
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  /* line 312, user-header.scss */
+  #user-header #box-mobile-btn .dropdown-menu {
+    right: 0;
+    left: auto;
+  }
+  /* line 316, user-header.scss */
+  #user-header #box-mobile-btn .dropdown {
+    display: inline-block;
+  }
+  /* line 318, user-header.scss */
+  #user-header #box-mobile-btn .dropdown ul {
+    font-size: 12px;
+  }
+  /* line 322, user-header.scss */
+  #user-header #box-mobile-btn .disabled {
+    background: #fafafa;
+    color: #555555;
+    border: 1px solid #555555;
+  }
+  /* line 330, user-header.scss */
+  #user-header #about ul li {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+
+  /* line 338, user-header.scss */
+  #user-menu {
+    display: none;
+  }
+
+  /* line 342, user-header.scss */
+  .modal.modal-fullscreen {
+    /* Maximize the main wrappers on the screen */
+    /* Make the parent wrapper of the modal box a full-width block */
+    /* Remove borders and effects on the content */
+    /**
+       * /!\ By using this feature, you force the header and footer to be placed
+       * in an absolute position. You must handle by yourself the margin of the
+       * content.
+       */
+  }
+
+  /* line 353, user-header.scss */
+  .modal.modal-fullscreen .modal-dialog,
+  .modal.modal-fullscreen .modal-content {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  /* line 362, user-header.scss */
+  .modal.modal-fullscreen .modal-dialog {
+    margin: 0;
+    width: 100%;
+  }
+
+  /* line 366, user-header.scss */
+  .modal.modal-fullscreen .modal-content {
+    border: none;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: inherit;
+    -moz-box-shadow: inherit;
+    -o-box-shadow: inherit;
+    box-shadow: inherit;
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  /* line 376, user-header.scss */
+  .modal.modal-fullscreen.force-fullscreen {
+    /* Remove the padding inside the body */
+  }
+
+  /* line 379, user-header.scss */
+  .modal.modal-fullscreen.force-fullscreen .modal-body {
+    padding: 0;
+  }
+
+  /* line 383, user-header.scss */
+  .modal.modal-fullscreen.force-fullscreen .modal-header,
+  .modal.modal-fullscreen.force-fullscreen .modal-footer {
+    left: 0;
+    position: absolute;
+    right: 0;
+    border-radius: 0px;
+  }
+
+  /* line 389, user-header.scss */
+  .modal.modal-fullscreen.force-fullscreen .modal-header {
+    top: 0;
+  }
+
+  /* line 392, user-header.scss */
+  .modal.modal-fullscreen.force-fullscreen .modal-footer {
+    bottom: 0;
+  }
+}
+@media (max-width: 320px) {
+  /* line 401, user-header.scss */
+  #user-header #about ul li {
+    width: auto;
+    font-size: 12px;
+  }
+  /* line 404, user-header.scss */
+  #user-header #about ul li a {
+    padding: 10px 8px;
+  }
+}

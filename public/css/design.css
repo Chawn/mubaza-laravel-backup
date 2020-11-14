@@ -1,0 +1,1044 @@
+/*--- Design ----*/
+/* line 8, design.scss */
+body {
+  overflow: auto;
+}
+
+/* line 11, design.scss */
+.main {
+  padding-bottom: 0;
+}
+
+/* line 14, design.scss */
+a {
+  cursor: pointer;
+}
+
+/* line 17, design.scss */
+#load-bg {
+  z-index: 1000;
+  width: 5000px;
+  height: 5000px;
+  background: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 26, design.scss */
+#loader-text {
+  position: absolute;
+  z-index: 1001;
+  left: 0;
+  top: 35%;
+  width: 100%;
+}
+/* line 32, design.scss */
+#loader-text #wait-text {
+  width: 250px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 31px;
+}
+/* line 38, design.scss */
+#loader-text #dot {
+  width: 30px;
+}
+
+/* line 43, design.scss */
+#loader-spin {
+  position: fixed;
+  z-index: 1001;
+  left: 50%;
+  top: 45%;
+}
+
+/* line 49, design.scss */
+.ui-dialog {
+  padding: 0;
+}
+/* line 51, design.scss */
+.ui-dialog .ui-dialog-content {
+  padding: 0;
+}
+
+/* line 55, design.scss */
+.step {
+  display: table;
+  font-size: 16px;
+  width: 100%;
+  background: #D6DFED;
+  /* padding: 12px 0; */
+  border: solid 1px #889EBD;
+}
+/* line 62, design.scss */
+.step .active {
+  background: #B0BACA;
+}
+/* line 65, design.scss */
+.step .column {
+  display: table-cell;
+  text-align: center;
+  color: #36465D;
+  padding: 10px 0;
+}
+/* line 71, design.scss */
+.step .column:not(:last-child) {
+  border-right: solid 1px #889EBD;
+}
+
+/* line 76, design.scss */
+#custom-area {
+  margin: 0 auto 0 0;
+  /* text-align: center; */
+  height: auto;
+  z-index: 0;
+}
+
+/* line 87, design.scss */
+.frame {
+  width: 210px;
+  display: block;
+  position: absolute;
+  border: none;
+  margin: 0 auto;
+  height: 400px;
+  z-index: 9;
+}
+
+/* line 96, design.scss */
+.product-now {
+  z-index: 2;
+  width: 500px;
+}
+
+/* line 100, design.scss */
+#design-frame * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 109, design.scss */
+#design-frame button:focus {
+  outline: none!important;
+}
+
+/* line 112, design.scss */
+#design-frame {
+  background: #FFF;
+  min-height: 600px;
+  position: relative;
+  left: 0;
+  z-index: 0;
+}
+
+/* line 121, design.scss */
+#tool-box {
+  width: 100%;
+  float: right;
+}
+/* line 124, design.scss */
+#tool-box #tabs {
+  border-radius: 4px 4px 0 0;
+  background: whitesmoke;
+  width: 100%;
+  border-bottom: solid 1px #dddddd;
+  display: table;
+}
+/* line 132, design.scss */
+#tool-box #tabs li {
+  width: 33.333%;
+  display: table-cell;
+}
+/* line 137, design.scss */
+#tool-box #tabs li a {
+  height: 76px;
+  border-radius: 0;
+  text-align: center;
+  border: none;
+  border-right: solid 1px #dddddd;
+  border-bottom: solid 1px #dddddd;
+  font-size: 16px;
+  color: #999;
+  background: #fff;
+  margin: 0;
+  padding: 8px 0 3px 0;
+}
+/* line 149, design.scss */
+#tool-box #tabs li a .icon-tab {
+  font-size: 28px;
+  margin-bottom: 2px;
+  height: 34px;
+  width: 34px;
+  line-height: 34px;
+  border-radius: 50%;
+  color: #FFF;
+}
+/* line 158, design.scss */
+#tool-box #tabs li a .icon-tab-text {
+  color: #575757;
+}
+/* line 162, design.scss */
+#tool-box #tabs li a .icon-tab-image {
+  color: #DC6E53;
+}
+/* line 166, design.scss */
+#tool-box #tabs li a img {
+  height: 34px;
+  margin-bottom: 2px;
+}
+/* line 170, design.scss */
+#tool-box #tabs li a p {
+  margin: 0;
+  font-size: 15px;
+}
+/* line 175, design.scss */
+#tool-box #tabs li a:hover {
+  background: #fff;
+  border-bottom: solid 1px #DDD;
+}
+/* line 179, design.scss */
+#tool-box #tabs li a:focus {
+  background: #fff;
+}
+/* line 186, design.scss */
+#tool-box #tabs li:first-child a {
+  border-radius: 4px 0 0 0;
+}
+/* line 192, design.scss */
+#tool-box #tabs li:last-child a {
+  border-radius: 0 4px 0 0;
+  border-right: none;
+}
+/* line 197, design.scss */
+#tool-box #tabs li.active > a {
+  color: #333;
+  background: #f7f7f7;
+  margin-bottom: -1px;
+  border-bottom: none;
+}
+
+/* line 206, design.scss */
+.design-dialog {
+  border: solid 1px #CCC;
+  border-radius: 4px;
+  position: absolute;
+  z-index: 9;
+}
+
+/* line 212, design.scss */
+#dialog-font {
+  width: 278px;
+  background: #FFF;
+}
+/* line 215, design.scss */
+#dialog-font .font-type {
+  padding: 10px 10px 10px 10px;
+}
+/* line 218, design.scss */
+#dialog-font .font-list {
+  border-top: solid 1px #ccc;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-y: auto;
+  height: 280px;
+}
+/* line 228, design.scss */
+#dialog-font .font-list li p {
+  font-size: 20px;
+  display: block;
+  padding: 4px 15px;
+  color: #444;
+  cursor: pointer;
+}
+/* line 235, design.scss */
+#dialog-font .font-list li p:hover {
+  background: #E8F1FE;
+  text-decoration: none;
+}
+/* line 239, design.scss */
+#dialog-font .font-list li p:focus {
+  background: #C1D4EF;
+  outline: none;
+  text-decoration: none;
+}
+
+/* line 247, design.scss */
+.ui-dialog {
+  width: auto!important;
+}
+
+/* line 250, design.scss */
+#dialog-text-color {
+  padding: 10px;
+  background: #FFF;
+  max-width: 170px;
+}
+/* line 254, design.scss */
+#dialog-text-color hr {
+  margin: 10px 0;
+}
+/* line 257, design.scss */
+#dialog-text-color .tooltip {
+  z-index: 99999;
+  position: fixed;
+}
+/* line 261, design.scss */
+#dialog-text-color .btn-color {
+  margin: 4px;
+}
+
+/* line 266, design.scss */
+#dialog-skin {
+  top: 77px;
+  left: 200px;
+  width: 525px;
+  background: #FFF;
+}
+/* line 271, design.scss */
+#dialog-skin .search-wrapper {
+  padding: 10px;
+}
+/* line 274, design.scss */
+#dialog-skin .skin-result {
+  overflow-y: auto;
+  height: 337px;
+  padding: 7px;
+}
+/* line 278, design.scss */
+#dialog-skin .skin-result .skin-wrapper {
+  display: inline-block;
+  padding: 3px;
+}
+/* line 281, design.scss */
+#dialog-skin .skin-result .skin-wrapper img {
+  width: 75px;
+  height: 75px;
+}
+
+/* line 289, design.scss */
+#col-tee {
+  padding-bottom: 30px;
+}
+
+/* line 293, design.scss */
+#col-tool {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background: #f7f7f7;
+  border-radius: 4px;
+  box-shadow: 0 0 5px #BBB;
+}
+
+/* line 303, design.scss */
+#design h1.title {
+  margin: 0;
+  padding: 10px 0px;
+}
+
+/* line 308, design.scss */
+#design-wrapper ul {
+  list-style: none;
+}
+
+/* line 311, design.scss */
+#design-wrapper {
+  width: 100%;
+  z-index: 2;
+  margin: 0;
+}
+/* line 315, design.scss */
+#design-wrapper .wrapper {
+  margin-bottom: 15px;
+}
+/* line 318, design.scss */
+#design-wrapper #design-box {
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 10px 15px 5px 15px;
+}
+/* line 323, design.scss */
+#design-wrapper #design-box .summary-wrapper {
+  margin-top: 15px;
+}
+/* line 327, design.scss */
+#design-wrapper #design-box .title {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* line 333, design.scss */
+#design-wrapper #design-box #design-content {
+  width: 100%;
+  border-top: none;
+  padding: 0;
+  border-radius: 0 0 6px 6px;
+}
+/* line 339, design.scss */
+#design-wrapper #design-box #design-content .tab-pane .wrapper {
+  margin-bottom: 10px;
+}
+/* line 345, design.scss */
+#design-wrapper #design-box .wrapper-picture {
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 348, design.scss */
+#design-wrapper #design-box .wrapper-picture .btn-choose-picture {
+  border-radius: 0;
+  border-radius: 0;
+  margin: 4px;
+  padding: 4px;
+  background: #fff;
+  border: solid 1px #ccc;
+}
+/* line 357, design.scss */
+#design-wrapper #design-box .wrapper-picture .btn-choose-picture img {
+  width: 74px;
+}
+/* line 363, design.scss */
+#design-wrapper #design-box .wrapper-picture .btn-remove-picture {
+  background: #E0E0E0;
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  top: -3px;
+  right: -3px;
+}
+/* line 373, design.scss */
+#design-wrapper #design-box .wrapper-picture .btn-remove-picture:hover {
+  background: #aaa;
+  cursor: pointer;
+}
+/* line 378, design.scss */
+#design-wrapper #design-box .group-color-count {
+  margin: 15px 0;
+}
+/* line 380, design.scss */
+#design-wrapper #design-box .group-color-count .box-count-color {
+  display: inline-block;
+}
+/* line 382, design.scss */
+#design-wrapper #design-box .group-color-count .box-count-color .btn-remove-color {
+  background: #E0E0E0;
+  font-size: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  top: -5px;
+  right: -5px;
+}
+/* line 392, design.scss */
+#design-wrapper #design-box .group-color-count .box-count-color .btn-remove-color:hover {
+  background: #aaa;
+  cursor: pointer;
+}
+/* line 396, design.scss */
+#design-wrapper #design-box .group-color-count .box-count-color .color-count {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #E0E0E0;
+}
+/* line 405, design.scss */
+#design-wrapper #design-box .btn-choose-picture:hover {
+  border: solid 1px #aaa;
+  cursor: pointer;
+}
+/* line 409, design.scss */
+#design-wrapper #design-box .form-control {
+  padding: 8px 12px;
+  font-size: 16px;
+  -moz-border-radius: 0px!important;
+  border-radius: 0px!important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  height: 42px;
+}
+/* line 418, design.scss */
+#design-wrapper #design-box #fake-select {
+  background: #FFF;
+  padding: 0 10px;
+  border: solid 1px #CCC;
+  height: 42px;
+  line-height: 40px;
+}
+/* line 424, design.scss */
+#design-wrapper #design-box #fake-select span {
+  font-size: 15px;
+  color: #444;
+}
+/* line 428, design.scss */
+#design-wrapper #design-box #fake-select .arrow-dropdown {
+  height: 7px;
+  width: 11px;
+  margin-top: 13px;
+  opacity: 0.7;
+}
+/* line 434, design.scss */
+#design-wrapper #design-box #fake-select .arrow-1 {
+  transform: rotate(0deg);
+  transition: .0s;
+}
+/* line 438, design.scss */
+#design-wrapper #design-box #fake-select .arrow-2 {
+  transform: rotate(-180deg);
+  transition: .0s;
+}
+/* line 443, design.scss */
+#design-wrapper #design-box #fake-select:hover {
+  cursor: pointer;
+}
+/* line 446, design.scss */
+#design-wrapper #design-box #fake-select.active {
+  border-color: #66AFE9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+/* line 455, design.scss */
+#design-wrapper #design-box #input-text-color {
+  width: 32px;
+  height: 32px;
+}
+/* line 460, design.scss */
+#design-wrapper #design-box .item-tool .icon {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  text-align: center;
+}
+/* line 465, design.scss */
+#design-wrapper #design-box .item-tool .icon span {
+  font-size: 21px;
+  vertical-align: middle;
+}
+/* line 469, design.scss */
+#design-wrapper #design-box .item-tool .icon img {
+  width: 100%;
+  height: 100%;
+}
+/* line 482, design.scss */
+#design-wrapper .submit-box #price-box {
+  vertical-align: middle;
+}
+/* line 485, design.scss */
+#design-wrapper .submit-box #price-box #show-price {
+  font-weight: bold;
+  font-size: 30px;
+}
+/* line 493, design.scss */
+#design-wrapper .submit-box .btn-add-basket {
+  width: 160px;
+  margin-left: 10px;
+  padding: 15px 0;
+}
+/* line 498, design.scss */
+#design-wrapper .submit-box .btn-add-basket.btn-default {
+  background: #ddd;
+}
+/* line 503, design.scss */
+#design-wrapper #custom-area .item {
+  cursor: move;
+}
+
+/* line 513, design.scss */
+#product-panel #select_category {
+  margin-bottom: 10px;
+}
+/* line 517, design.scss */
+#product-panel .product-list .picture {
+  vertical-align: top;
+}
+/* line 520, design.scss */
+#product-panel .product-list .detail {
+  padding: 5px;
+}
+/* line 523, design.scss */
+#product-panel .product-list li a {
+  padding: 5px;
+  background: #fff;
+  border: solid 1px #dddddd;
+  border-top: none;
+  display: block;
+  width: 100%;
+}
+/* line 531, design.scss */
+#product-panel .product-list li:first-child a {
+  border-top: solid 1px #dddddd;
+}
+/* line 534, design.scss */
+#product-panel .product-list .colum {
+  display: table-cell;
+}
+/* line 537, design.scss */
+#product-panel .product-list li a img {
+  width: 70px;
+  margin: 0 5px 0 0;
+}
+/* line 541, design.scss */
+#product-panel .product-list li a .product-name {
+  font-size: 14px;
+  color: #444;
+  font-weight: bold;
+  white-space: normal;
+}
+/* line 547, design.scss */
+#product-panel .product-list li a .product-detail {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+}
+/* line 552, design.scss */
+#product-panel .product-list li a:hover {
+  text-decoration: none;
+  background: #EDF2F9;
+}
+/* line 556, design.scss */
+#product-panel .product-list li a:focus {
+  text-decoration: none;
+}
+/* line 559, design.scss */
+#product-panel .product-list li a {
+  outline: none;
+}
+/* line 562, design.scss */
+#product-panel .product-list li a.active {
+  background: #ddd;
+  border: solid 1px #dddddd;
+  border-bottom: none;
+}
+/* line 567, design.scss */
+#product-panel .product-list .color-box {
+  background: #fff;
+  border: solid 1px #dddddd;
+  padding: 5px;
+  border-top: none;
+}
+/* line 572, design.scss */
+#product-panel .product-list .color-box .select-product-color {
+  width: 24px;
+  height: 24px;
+  border: solid 1px #EAEAEA;
+  border-radius: 6px;
+  margin: 5px 5px 0 0;
+  padding: 14px;
+}
+/* line 580, design.scss */
+#product-panel .product-list .color-box .select-product-color.active {
+  border: solid 1px #FFFFFF;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/* line 589, design.scss */
+#design-tool .tabs li {
+  display: inline-block;
+}
+
+/* line 592, design.scss */
+#design-tool .tabs li a {
+  text-align: center;
+  padding: 5px;
+  border: solid 1px #ccc;
+}
+
+/* line 597, design.scss */
+#design-tool-old {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #EFEFEF;
+  padding: 10px;
+  border: solid 1px #C8CCCF;
+  width: 287px;
+}
+
+/* line 606, design.scss */
+#design-tool-old button {
+  display: inline-block;
+  min-width: 50px;
+  text-align: left;
+  margin-bottom: 8px;
+  padding: 6px 5px;
+}
+
+/* line 613, design.scss */
+#design-tool-old .icon {
+  width: 24px;
+  text-align: center;
+  display: inline-block;
+}
+
+/* line 618, design.scss */
+#design-tool-old .text {
+  text-align: left;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+/* line 623, design.scss */
+.btn-choose-product {
+  padding: 0px 8px;
+  width: 49%;
+}
+
+/* line 628, design.scss */
+.btn-choose-skin {
+  margin: 5px 3px 0 0;
+}
+
+/* line 631, design.scss */
+#choose-skin .btn {
+  padding: 5px 8px;
+}
+
+/* line 634, design.scss */
+.btn-choose-skin img {
+  width: 53px;
+}
+
+/* line 637, design.scss */
+#control-tool {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* line 642, design.scss */
+#item-control {
+  position: absolute;
+  top: 55px;
+  right: 10px;
+}
+
+/* line 647, design.scss */
+#viewpoint-tool {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+/* line 652, design.scss */
+#viewpoint-tool div.text {
+  padding: 5px 0;
+}
+
+/* line 655, design.scss */
+#color-tool {
+  position: absolute;
+  bottom: 125px;
+  right: 10px;
+}
+
+/* line 660, design.scss */
+#skin-color-tool {
+  position: absolute;
+  top: 235px;
+  right: 10px;
+}
+
+/* line 665, design.scss */
+.btn-color {
+  height: 22px;
+  width: 22px;
+}
+
+/* line 669, design.scss */
+.btn-color.active {
+  border: solid 1px #777!important;
+  opacity: 1;
+}
+
+/* line 673, design.scss */
+#btn-submit-design {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/* line 678, design.scss */
+.icon-remove {
+  font-size: 12px!important;
+  font-weight: normal;
+}
+
+/* line 682, design.scss */
+.icon-edit {
+  font-size: 12px!important;
+  font-weight: normal;
+}
+
+/* line 687, design.scss */
+.item-blank .text {
+  color: #ccc!important;
+}
+
+/* line 692, design.scss */
+.item:hover {
+  cursor: pointer;
+}
+
+/* line 695, design.scss */
+.item-active {
+  padding: 0px!important;
+}
+
+/* line 698, design.scss */
+.item-text {
+  /* display: inline-block; */
+}
+/* line 700, design.scss */
+.item-text .item-inner {
+  white-space: nowrap;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 706, design.scss */
+.ui-resizable-helper {
+  border: 2px dashed #faa;
+  background-color: #eeeecc;
+  opacity: .5;
+}
+
+/* line 711, design.scss */
+.ui-resizable-ghost {
+  opacity: 0 !important;
+}
+
+/* line 715, design.scss */
+.item .text {
+  /* overflow: hidden;
+  word-wrap:break-word;
+  word-break:break-all; */
+}
+
+/* line 721, design.scss */
+.item {
+  position: absolute!important;
+  display: block;
+  z-index: 0;
+  padding: 1px 0 0 1px;
+  line-height: normal;
+}
+/* line 728, design.scss */
+.item .icon {
+  display: none;
+}
+/* line 731, design.scss */
+.item .ui-resizable-handle {
+  display: none!important;
+}
+/* line 734, design.scss */
+.item .icon {
+  background: #fff;
+  padding: 1px;
+  border: solid 1px #ccc;
+  background: #fff;
+  position: absolute;
+  padding: 0;
+  height: 18px;
+  width: 18px;
+}
+/* line 744, design.scss */
+.item .icon-drag {
+  top: -18px;
+  left: -18px;
+  cursor: move;
+  background-image: url(../images/icon/move.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+/* line 753, design.scss */
+.item .icon-remove {
+  bottom: -18px;
+  left: -18px;
+  cursor: pointer;
+  background-image: url(../images/icon/trash.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+/* line 762, design.scss */
+.item .ui-resizable-handle.ui-icon {
+  padding: 2px;
+  bottom: -18px;
+  right: -18px;
+  background-image: url(../images/icon/resize.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-color: #FFF;
+  border: solid 1px #CCC;
+  height: 18px;
+  width: 18px;
+}
+/* line 775, design.scss */
+.item .icon-rotate {
+  top: -18px;
+  right: -18px;
+  cursor: pointer;
+  background-image: url(../images/icon/rotate.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  position: absolute;
+}
+
+/* line 786, design.scss */
+.item-picture:hover {
+  opacity: 0.8;
+  cursor: pointer!important;
+}
+
+/* line 790, design.scss */
+.item-picture.item-active:hover {
+  opacity: 1;
+  cursor: move!important;
+}
+
+/* line 794, design.scss */
+.item-active .ui-icon {
+  display: block!important;
+}
+
+/* line 797, design.scss */
+.item-active .tool .icon {
+  display: block;
+}
+
+/* line 800, design.scss */
+.item-active {
+  border: solid 1px #999;
+}
+/* line 802, design.scss */
+.item-active .icon {
+  display: block;
+}
+/* line 805, design.scss */
+.item-active .ui-resizable-handle {
+  display: block;
+}
+
+/* line 809, design.scss */
+.text-bold {
+  font-weight: bold!important;
+}
+
+/* line 812, design.scss */
+.text-italic {
+  font-style: italic!important;
+}
+
+/* line 815, design.scss */
+.text-underline {
+  text-decoration: underline!important;
+}
+
+/* line 818, design.scss */
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 826, design.scss */
+.bottom-button {
+  margin-top: 30px;
+  border-top: solid 1px #ccc;
+  padding: 10px 0;
+}
+
+/* line 832, design.scss */
+#price-total {
+  position: absolute;
+  bottom: 0;
+  right: 170px;
+  padding: 0px 0;
+}
+
+/* line 838, design.scss */
+#popover-skin {
+  position: absolute;
+  top: 55px;
+  left: 265px;
+  z-index: 9999;
+  background: #FFF;
+  padding: 10px;
+  border: solid 1px #D19043;
+  border-radius: 4px;
+  width: 220px;
+}
+
+/* line 849, design.scss */
+#popover-skin .title {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* line 853, design.scss */
+#popover-skin .picture img {
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* line 857, design.scss */
+#popover-skin .detail, #popover-skin .designer {
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+/* line 861, design.scss */
+#popover-skin .price {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 5px 0;
+  text-align: right;
+}
+
+/* line 868, design.scss */
+.dropdown-color {
+  padding: 0;
+  max-width: 100px;
+  min-width: 0;
+  padding: 10px;
+  text-align: left;
+}
+/* line 874, design.scss */
+.dropdown-color .btn-color {
+  display: inline-block;
+}
+
+/*--- END Design ---*/
+/*-- Add Frame Design Area--*/
+/* line 884, design.scss */
+.custom-frame {
+  background: #FFF;
+  position: relative;
+  padding: 0;
+  width: 500px;
+  margin: 0 auto;
+  display: none;
+}
+
+/* line 893, design.scss */
+.custom-frame.active {
+  display: block;
+}
+
+/* line 896, design.scss */
+.custom-frame img.product-img {
+  width: 500px;
+}
+
+/*--- End Add Frame Design Area-*/

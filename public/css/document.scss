@@ -1,0 +1,281 @@
+
+$A4Width: 210mm;
+$A4Height : 297mm;
+
+$A5Width : 210mm;
+$A5Height : 148mm;
+
+
+$labelWidth : 190mm;
+$labelHeight : 128mm;
+body{
+	font-family: "Open-Sans","Helvetica Neue","Helvetica","Arial","Verdana","sans-serif";
+}
+p{
+	margin-bottom: 5px;
+	padding-top: 6px;
+}
+label{
+	font-weight: bold;
+}
+.page-a5{
+	width: $A5Width;
+	height: $A5Height;
+}
+@media all {
+    .page-break {
+        display: none;
+    }
+}
+
+@media print {
+    .page-break {
+        display: block;
+        height: 1px;
+        page-break-after: always;
+    }
+}
+
+$border:1px solid;
+
+#mubaza-logo{
+	width:70px;
+	float:left;
+	display:inline-block;
+	position: absolute;
+}
+.doc-header{
+	.doc-header-left{
+		float: left;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	.doc-header-right{
+
+	}
+}
+
+.table-data{
+	width: 100%;
+	margin-top: 10px;
+	thead{
+		border-bottom: none !important;
+		tr{
+			th{
+				border: $border;
+				text-align: center;
+				font-weight: bold;
+    			background: #fafafa;
+			}
+			.title{
+				background: #ccc;
+			}
+		}
+	}
+	tbody{
+		tr{
+			td{
+				border-left: $border;
+				line-height: 22px;
+    			padding: 0 10px;
+    			&:last-child{
+    				border-right: $border;
+    			}
+    			.mockup{
+    				height: 300px;
+    				margin: auto;
+    			}
+			}
+			&:last-child{
+				td{
+					border-bottom: $border;
+				}
+			}
+		}
+	}
+	tfoot{
+		tr{
+			td{
+				border: $border;
+				line-height: 20px;
+				padding: 5px 10px;
+			}
+			.subtotoal{
+
+			}
+		}
+	}
+}
+.table-footer{
+	width: 100%;
+	thead{
+		tr{
+			th{
+				
+				border-bottom: 2px solid;
+				height: 50px;
+			}
+		}
+	}
+	tbody{
+		tr{
+			td{
+				width: 33.33%;
+				border: $border;
+				padding: 15px;
+				text-align: center;
+				hr{
+					margin-top: 65px;
+					border-style: solid;
+    				border-width: 1px;
+    				border-color: #333;
+				}
+			}
+		}
+	}
+}
+.border{
+	border: 1px solid;
+}
+.page{
+	height: $A4Height;
+	width: $A4Width;
+	text-align: left;
+	padding-top: 5px;
+	.blukposting{
+		width: 100%;
+		font-size: 14px;
+		h2{
+			font-size: 20px;
+			font-weight: bold;
+			margin-bottom: 5px;
+		}
+		h3{
+			font-size: 18px;
+			margin-bottom: 5px;
+		}
+		thead{
+			border-bottom: 2px solid;
+			tr{
+				th{
+					padding: 5px;
+				}
+			}
+		}
+		tbody{
+			tr{
+				td{
+					padding-top: 2px;
+				}
+				.production-detail{
+					max-height: 315px;
+				}
+				.production-print{
+					height: 400px;
+				}
+			}
+			.table-border{
+				width: 100%;
+				border-top: 2px solid;
+				thead{
+					border-bottom:1px solid !important; 
+					tr{
+						th{
+							padding: 8px 5px 5px 5px;
+							border:$border;
+
+							vertical-align: middle;
+							text-align: center;
+						}
+						
+					}
+				}
+				tbody{
+					tr{
+						&:first-child{
+							td{
+								border-top: none !important;
+							}
+						}
+						td{
+							border:$border;
+							border-top:none;
+							vertical-align: middle;
+							padding: 10px;
+						}
+
+					}
+				}
+				tfoot{
+					tr{
+						.td-total{
+							padding: 0px;
+							border: $border;
+							border-bottom: 2px double;
+							font-weight: bold;
+							h3{
+								border-bottom: $border;
+								padding: 10px;
+								padding-right: 15px;
+							}
+						}
+						td{
+							padding: 10px 0px 0 0px;
+							vertical-align: middle;
+						}
+						.counter{
+							height: 80px;
+							vertical-align: bottom;
+						}
+					}
+				}	
+			}
+		}
+		.saleorder{
+			height: 715px;
+			.blank{
+
+			}				
+		}
+	}
+
+	.ordered{
+		width: 100%;
+		thead{
+			tr{
+				th{
+					.logo{
+						height: 80px;
+						margin: auto;
+					}
+				}
+			}
+		}
+			
+	}
+}
+
+.table-cell{
+	display: table-cell;
+}
+.pull-left{
+	float: left !important;
+}
+.pull-right{
+	float: right !important;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-bold{
+	font-weight: bold;
+}
+.checkbox{
+	margin-right: 5px;
+}

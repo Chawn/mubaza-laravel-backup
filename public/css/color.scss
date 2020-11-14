@@ -1,0 +1,52 @@
+$peterRiverBlue:#3498DB;
+$peterRiverBlueHover:#2980B9;
+$radicalRed:#F62459;
+$radicalRedHover:#DB0A5B;
+$caribainGreen:#03C9A9;
+$darkblue:#34495E;
+$darkblueHover:#2C3E50;
+$green:#81ce3d;
+$greenHover:#67AF27;
+.link {
+	color:$peterRiverBlue;
+	&:hover {
+		color:$peterRiverBlueHover;
+	}
+}
+.btn-link {
+	background:$peterRiverBlue;
+	color:#fff;
+	&:hover {
+		background:$peterRiverBlueHover;
+		color: #f5f7f7;
+	}
+}
+.pink{
+	color:$radicalRed;
+	&:hover {
+		color:$radicalRedHover;
+	}
+}
+.darkblue{
+	color:$darkblue;
+	&:hover{
+		color:$darkblueHover;
+	}
+}
+
+.progress-green {
+	background:$caribainGreen;
+}
+/* 
+.btn-box {
+	border-radius:0px;
+	&.btn-begin{
+		background: $green;
+		color: #fff;
+		border:1px solid $green;
+		&.line{
+			background:#fff !important;
+			color: $green;
+		}
+	}
+} */

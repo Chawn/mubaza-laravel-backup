@@ -1,0 +1,160 @@
+$peterRiverBlue:#3498DB;
+$peterRiverBlueHover:#2980B9;
+$mainColor:#244C7D;
+
+.main{
+	padding-top:0px;
+	@media (max-width:991px){
+		margin-top: 0px;
+		.container{
+			padding-left:0px;
+			padding-right:0px;
+		}
+	}		
+}
+.col-mobile{
+	padding-left:0px;
+	padding-right:0px;
+}
+.btn-filter{
+	color:$peterRiverBlue;
+	border:none;
+	background:transparent;
+	&:hover{
+		color: $peterRiverBlueHover;
+	}
+}
+.search-menu{
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px 0 12px 0;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    .header{
+    	padding-top:6px;
+    	display: inline-block;
+    	font-weight: bold;
+    }
+    .group-left{
+		position:absolute;
+		top:0;
+		left:0;
+	}
+	.group-right{
+		position:absolute;
+		top: 0;
+		right: 0;
+		#filter-view{
+			padding:9px;
+		}
+		#btn-filter{
+			border-left:1px solid #ddd;
+			padding:6px 12px 6px 6px;
+			i{
+				margin-right: 5px;
+			}
+		}
+	}
+	.btn-default{
+	}
+}
+.filter{
+	position:absolute;
+	top:0px;
+	right:0px;
+	z-index:9999;
+	width:100%;
+	display:none;
+	.filter-wrapper{		
+		background:#fff;
+		width:300px;
+		height: 100%;
+		top: 53px;
+		box-shadow:0px 3px 20px #555;		
+		.filter-title{
+			background: #fff;
+			padding:10px;
+			color: #333;
+			.close{
+				color: #555;
+				opacity: 0.8;
+				span{
+					color:#555;
+					font-size: 35px;
+	    			font-weight: 100;
+	    			text-shadow: none;
+				}
+			}
+		}
+		.filter-body{
+			.list-group{
+				.list-group-item{
+					border-radius:0px;
+					border-left:none;
+					border-right:none;
+					line-height: 35px;
+					label{
+						font-weight: 500;
+						display: inline-block;
+					}
+					select{
+						width : 70%;
+						float: right;
+					}
+					.pointer{
+						color: $peterRiverBlue;
+					}
+					&:hover{
+						cursor: pointer;
+					}
+					.input-price{
+						input{
+							width: 88px;
+							padding: 6px 12px;
+							line-height: 20px;
+							display: inline-block;
+						}
+					}
+					
+
+					.btn-begin{
+						width: 45%;
+
+					}	
+				}
+				#list-group-color{
+					min-height: 100px;
+					.color-list{
+						float: right;
+						width:70%;
+						.color-select{
+							width: 30px;
+						    height: 30px;
+						    margin-right: 5px;
+						    margin-bottom: 5px;
+						    border-radius: 0px;
+						    display: inline-block;
+						    text-align: center;
+						    border: 2px solid #eee;
+						    .fa{
+						    	color: transparent;
+						    }
+						    &.check{
+						    	border:2px solid #FFA500;
+						    	.fa{
+						    		color: transparent;
+						    	}
+						    }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.filter.in{
+	background:rgba(0,0,0,0.8);
+}	

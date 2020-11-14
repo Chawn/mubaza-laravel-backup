@@ -1,0 +1,50 @@
+.spinner-none{
+	input[type=number]::-webkit-outer-spin-button,
+    input[type=number]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
+.docbox{
+	
+	&:hover{
+		cursor: pointer;
+	}
+	.select{
+		position: absolute;
+	    right: 17px;
+	    border-radius:5px;
+	    text-align: center;
+	    vertical-align: middle;
+		input[type=checkbox]{
+			visibility: hidden;
+			position:absolute;
+			& + label{
+				color: transparent;
+			}
+			&:checked + label{				
+			    color: #5cb85c;
+			    text-align: center;
+				border-radius:5px;
+				width: 15px;
+				height: 15px;
+				border-radius:50%;
+				background:#fff;
+			    i{
+			    	font-size: 25px;
+			    }
+			}
+		}
+		label{
+			
+		}
+	}
+}
+
+.form-group{
+	.back-label{
+		padding-top: 7px;
+    	margin-bottom: 0;
+	}
+}

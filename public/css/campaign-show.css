@@ -1,0 +1,1235 @@
+/* 
+การใช้งาน
+ใส่ "@import 'template';"
+ในบรรทัดแรกของไฟล์ .scss ที่ต้องการใช้ไฟล์นี้
+และสามารถเรียกใช้งานตัวแปรที่ประกาศไว้ในนี้ได้ทั้งหมด
+ */
+/* Header */
+/* --END Header-- */
+/* Body */
+/* --END Body-- */
+/* border */
+/* End border */
+/* Hero Header */
+/* --END Hero Header-- */
+/* Text Color */
+/* --END Text Color-- */
+/* Button */
+/* --END Button-- */
+/* Campaign Show */
+/* --END Campaign Show-- */
+/* Color */
+/*other effect */
+/* line 15, campaign-show.scss */
+.campaign-title {
+  font-size: 22px;
+}
+
+/* line 24, campaign-show.scss */
+.select-product-wrapper .row label {
+  color: #999999 !important;
+  font-weight: normal;
+}
+/* line 28, campaign-show.scss */
+.select-product-wrapper .row label:after {
+  content: ':';
+}
+
+/* line 35, campaign-show.scss */
+.toolswarp {
+  display: inline-block;
+}
+/* line 37, campaign-show.scss */
+.toolswarp ul {
+  text-decoration: none;
+  line-height: 45px;
+  padding-left: 0px;
+}
+/* line 41, campaign-show.scss */
+.toolswarp ul li {
+  list-style: none;
+  display: inline-block;
+}
+/* line 44, campaign-show.scss */
+.toolswarp ul li a {
+  padding: 10px;
+}
+
+/* line 50, campaign-show.scss */
+#buy-group {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #ccc;
+  z-index: 9999;
+}
+/* line 57, campaign-show.scss */
+#buy-group .price {
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+/* line 61, campaign-show.scss */
+#buy-group .price p {
+  margin: 0;
+}
+/* line 64, campaign-show.scss */
+#buy-group .price .total {
+  margin: auto 0;
+  line-height: 55px;
+}
+/* line 69, campaign-show.scss */
+#buy-group .btn-buy {
+  height: 55px;
+  width: 210px;
+  font-size: 22px;
+  font-weight: normal;
+  float: right;
+}
+
+/* line 77, campaign-show.scss */
+.warranty {
+  padding: 20px 20px;
+  font-weight: bold;
+  color: #999999 !important;
+  border: solid 1px #CCC;
+  background-color: #f8f8f8;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+  display: block;
+}
+/* line 88, campaign-show.scss */
+.warranty:hover {
+  text-decoration: none;
+}
+
+/* line 93, campaign-show.scss */
+#section-campaign-cover {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  overflow: hidden;
+  background: -webkit-radial-gradient(rgba(200, 214, 227, 0.1), #f5f7f7 90%);
+  /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(rgba(200, 214, 227, 0.1), #f5f7f7 90%);
+  /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(rgba(200, 214, 227, 0.1), #f5f7f7 90%);
+  /* For Firefox 3.6-15 */
+  background: radial-gradient(rgba(200, 214, 227, 0.1), #f5f7f7 90%);
+  /* Standard syntax */
+}
+/* line 98, campaign-show.scss */
+#section-campaign-cover .campaign-cover-tools {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 66px 0;
+  height: 100%;
+  padding: 198px 0;
+  margin-top: 0;
+}
+/* line 108, campaign-show.scss */
+#section-campaign-cover .campaign-cover-tools .btn-file {
+  height: 50px;
+  width: 200px;
+  line-height: 38px;
+  position: relative;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border: 1px;
+}
+/* line 117, campaign-show.scss */
+#section-campaign-cover .campaign-cover-tools .btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+/* line 134, campaign-show.scss */
+#section-campaign-cover .campaign-cover-tools .group-btn-control .btn-cover {
+  width: 90px;
+  height: 40px;
+  line-height: 28px;
+  box-shadow: none;
+  margin: 10px 7px;
+}
+/* line 144, campaign-show.scss */
+#section-campaign-cover .campaign-cover {
+  background: no-repeat center center;
+  text-align: center;
+  height: 400px;
+}
+/* line 149, campaign-show.scss */
+#section-campaign-cover .campaign-cover img {
+  height: 100%;
+  margin: auto;
+}
+@media (max-width: 767px) {
+  /* line 149, campaign-show.scss */
+  #section-campaign-cover .campaign-cover img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: -15%;
+    right: 0;
+    bottom: 0;
+  }
+}
+/* line 161, campaign-show.scss */
+#section-campaign-cover .campaign-cover .group-edit-campaign {
+  width: 100%;
+  height: 100%;
+  padding: 198px 0;
+}
+/* line 165, campaign-show.scss */
+#section-campaign-cover .campaign-cover .group-edit-campaign:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 169, campaign-show.scss */
+#section-campaign-cover .campaign-cover .group-edit-campaign .btn-edit-cover {
+  display: inline-block;
+}
+@media (max-width: 767px) {
+  /* line 93, campaign-show.scss */
+  #section-campaign-cover {
+    margin-bottom: 0px;
+  }
+  /* line 177, campaign-show.scss */
+  #section-campaign-cover .campaign-cover-tools {
+    margin-top: 0px;
+    padding: 73px 0;
+  }
+  /* line 180, campaign-show.scss */
+  #section-campaign-cover .campaign-cover-tools .group-btn-control {
+    margin-top: 0px;
+  }
+  /* line 184, campaign-show.scss */
+  #section-campaign-cover .campaign-cover {
+    margin-top: 0px;
+    height: 210px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+/* line 195, campaign-show.scss */
+#section-campaign-cover #campaign-detail-img img {
+  width: 100%;
+}
+/* line 198, campaign-show.scss */
+#section-campaign-cover #campaign-detail-img #bottom-img {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+/* line 203, campaign-show.scss */
+#section-campaign-cover #campaign-detail-img #mid-img {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+/* line 208, campaign-show.scss */
+#section-campaign-cover #campaign-detail-img #top-img {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+/* line 213, campaign-show.scss */
+#section-campaign-cover #campaign-detail-img #screen-img {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  width: 530px;
+  z-index: 100;
+}
+/* line 221, campaign-show.scss */
+#section-campaign-cover #campaign-detail-text {
+  padding: 20px;
+}
+/* line 223, campaign-show.scss */
+#section-campaign-cover #campaign-detail-text #campaign-detail-box-title {
+  text-align: center;
+}
+/* line 226, campaign-show.scss */
+#section-campaign-cover #campaign-detail-text #campaign-detail-about {
+  margin-left: 30px;
+  word-break: break-word;
+  height: calc(62%);
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+/* line 234, campaign-show.scss */
+#section-campaign-cover .see-more, #section-campaign-cover .close-see-more {
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
+}
+
+/* line 241, campaign-show.scss */
+#close-detail-group {
+  position: relative;
+  bottom: 150px;
+  right: 1%;
+  width: 100px;
+  text-align: center;
+}
+/* line 247, campaign-show.scss */
+#close-detail-group p {
+  font-size: 12px;
+}
+/* line 250, campaign-show.scss */
+#close-detail-group #btn-close-detail {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  display: block;
+  background: #efefef;
+  padding: 23px;
+  padding-top: 27px;
+  margin: auto;
+  float: none;
+  position: static;
+}
+/* line 261, campaign-show.scss */
+#close-detail-group #btn-close-detail span {
+  background: #989898;
+}
+/* line 264, campaign-show.scss */
+#close-detail-group #btn-close-detail .icon-bar {
+  width: 22px;
+  transition: all 0.5s;
+}
+/* line 268, campaign-show.scss */
+#close-detail-group #btn-close-detail .top-bar {
+  transform: rotate(0);
+}
+/* line 271, campaign-show.scss */
+#close-detail-group #btn-close-detail .middle-bar {
+  opacity: 1;
+}
+/* line 274, campaign-show.scss */
+#close-detail-group #btn-close-detail .bottom-bar {
+  transform: rotate(0);
+}
+/* line 278, campaign-show.scss */
+#close-detail-group .close-detail {
+  padding: 26px !important;
+}
+/* line 280, campaign-show.scss */
+#close-detail-group .close-detail .top-bar {
+  transform: rotate(45deg) !important;
+  transform-origin: 10% 10%;
+}
+/* line 284, campaign-show.scss */
+#close-detail-group .close-detail .middle-bar {
+  opacity: 0 !important;
+}
+/* line 287, campaign-show.scss */
+#close-detail-group .close-detail .bottom-bar {
+  transform: rotate(-45deg) !important;
+  transform-origin: 10% 90%;
+}
+
+@media (max-width: 767px) {
+  /* line 294, campaign-show.scss */
+  #close-detail-group {
+    bottom: 0px;
+    right: auto;
+    left: calc(50% - 60px);
+    z-index: 1;
+  }
+
+  /* line 300, campaign-show.scss */
+  .fixtop {
+    top: 15px;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  }
+}
+/* line 314, campaign-show.scss */
+.select-box .tools {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #efefef;
+  color: #989898;
+  transition: all 0.3s;
+  display: block;
+}
+/* line 323, campaign-show.scss */
+.select-box .tools i {
+  line-height: 40px;
+  vertical-align: middle;
+  font-size: 20px;
+}
+/* line 328, campaign-show.scss */
+.select-box .tools:hover {
+  background: #dedede;
+  cursor: pointer;
+}
+/* line 332, campaign-show.scss */
+.select-box .tools:first-child {
+  border-radius: 5px 5px 0 0;
+}
+/* line 335, campaign-show.scss */
+.select-box .tools:last-child {
+  border-radius: 0 0 5px 5px;
+}
+
+/* line 341, campaign-show.scss */
+#box-tool {
+  width: 40px;
+  position: absolute;
+  top: 60px;
+}
+
+/* line 347, campaign-show.scss */
+.img-box {
+  position: absolute;
+  top: 350px;
+  left: 0px;
+}
+/* line 351, campaign-show.scss */
+.img-box .tools {
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 356, campaign-show.scss */
+.img-box .tools img {
+  width: 100%;
+  position: relative;
+  top: 0px;
+}
+/* line 361, campaign-show.scss */
+.img-box .tools:hover {
+  cursor: pointer;
+}
+
+/* line 371, campaign-show.scss */
+.social-share-tool {
+  margin-left: 0px;
+}
+/* line 373, campaign-show.scss */
+.social-share-tool a {
+  float: left;
+  width: 30px;
+  height: 30px;
+  background: url(../images/icon/social/social-share.png) no-repeat -128px 0;
+  overflow: hidden;
+  text-indent: -999em;
+}
+/* line 381, campaign-show.scss */
+.social-share-tool .i-share-facebook {
+  background-position: -32px 0;
+}
+/* line 384, campaign-show.scss */
+.social-share-tool .i-share-twitter {
+  background-position: 0 0;
+}
+/* line 387, campaign-show.scss */
+.social-share-tool .i-share-google {
+  background-position: -64px 0;
+}
+/* line 390, campaign-show.scss */
+.social-share-tool .i-share-pinterest {
+  background-position: -96px 0;
+}
+/* line 393, campaign-show.scss */
+.social-share-tool .i-share-email {
+  background-position: -192px 0;
+}
+
+/* line 397, campaign-show.scss */
+#box-social {
+  height: 40px;
+}
+/* line 399, campaign-show.scss */
+#box-social .col-nonpadding {
+  padding: 0px !important;
+}
+/* line 402, campaign-show.scss */
+#box-social .tools {
+  display: inline-block;
+  color: #989898;
+}
+
+/* line 408, campaign-show.scss */
+.color-button {
+  background: #fff;
+  padding: 2px!important;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin-right: 10px;
+  width: 34px;
+  height: 34px;
+}
+/* line 416, campaign-show.scss */
+.color-button .color-select {
+  height: 100%;
+  width: 100%;
+  display: block;
+  margin-right: 0px;
+  border-radius: 2px;
+  text-align: center;
+  border: solid 1px #fff;
+}
+/* line 424, campaign-show.scss */
+.color-button .color-select i {
+  color: transparent;
+}
+/* line 427, campaign-show.scss */
+.color-button .color-select:hover {
+  cursor: pointer;
+}
+
+/* line 433, campaign-show.scss */
+.color-button:has('.color') {
+  border: solid 1px #FFA500!important;
+}
+
+/* line 436, campaign-show.scss */
+.color-select.color {
+  border: solid 1px #6CCA29;
+  box-shadow: 0 0 1px #ccc;
+}
+/* line 439, campaign-show.scss */
+.color-select.color i {
+  color: transparent;
+}
+
+/* line 446, campaign-show.scss */
+.box-size .size-select {
+  background: #fff;
+  border-radius: 2px;
+  border: 1px solid #CCC;
+  display: inline-block;
+  padding: 0 5px;
+  min-width: 34px;
+  height: 34px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: #444;
+  line-height: 34px;
+}
+/* line 458, campaign-show.scss */
+.box-size .size-select:focus {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  background-color: #e6e6e6;
+  border-color: #bbb;
+}
+/* line 464, campaign-show.scss */
+.box-size .size-select:hover {
+  background: #eee;
+}
+/* line 468, campaign-show.scss */
+.box-size .select {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  background-color: #e6e6e6;
+  border-color: #bbb;
+}
+
+/* line 480, campaign-show.scss */
+#campaign-select #title-group .campaign-title {
+  margin-bottom: 5px;
+}
+/* line 484, campaign-show.scss */
+#campaign-select #box-social {
+  text-align: right;
+}
+@media (max-width: 767px) {
+  /* line 484, campaign-show.scss */
+  #campaign-select #box-social {
+    float: left;
+    margin: 0;
+    line-height: 0;
+  }
+}
+/* line 491, campaign-show.scss */
+#campaign-select #box-social .btn-circle {
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+/* line 495, campaign-show.scss */
+#campaign-select #box-social .btn-circle:hover {
+  cursor: pointer;
+}
+/* line 501, campaign-show.scss */
+#campaign-select #box-shared .shared-container {
+  margin: auto;
+}
+/* line 503, campaign-show.scss */
+#campaign-select #box-shared .shared-container .shared-in {
+  background: #fff;
+  display: inline-block;
+  float: right;
+  padding: 5px 5px 0 5px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.15);
+  -webkit-transition: all .1s ease-out;
+  -moz-transition: all .1s ease-out;
+  -ms-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+}
+/* line 518, campaign-show.scss */
+#campaign-select #box-shared .shared-container .shared-triangle {
+  width: 0;
+  height: 0;
+  position: relative;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #ddd;
+  top: -2px;
+  left: 95%;
+  margin-left: -8px;
+}
+/* line 538, campaign-show.scss */
+#campaign-select #campaign-select-show:hover {
+  cursor: pointer;
+}
+/* line 540, campaign-show.scss */
+#campaign-select #campaign-select-show:hover .select-img img {
+  transform: scale(1.5, 1.5);
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  -o-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+  margin-bottom: 0px;
+}
+/* line 552, campaign-show.scss */
+#campaign-select #campaign-select-show {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 557, campaign-show.scss */
+#campaign-select #campaign-select-show .box-tool {
+  position: absolute;
+  left: 0;
+  top: 0px;
+}
+/* line 563, campaign-show.scss */
+#campaign-select #campaign-select-show .select-img img {
+  transition: all .3s ease-in-out;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+/* line 576, campaign-show.scss */
+#campaign-select #campaign-select-option #box-timecount h3 {
+  display: inline-block;
+  margin-left: 10px;
+}
+/* line 579, campaign-show.scss */
+#campaign-select #campaign-select-option #box-timecount h3 span {
+  font-size: 14px;
+}
+/* line 582, campaign-show.scss */
+#campaign-select #campaign-select-option #box-timecount h3:first-child {
+  margin-left: 0px;
+}
+/* line 587, campaign-show.scss */
+#campaign-select #campaign-select-option .campaign-select-group {
+  padding: 20px 0 0 0;
+}
+/* line 589, campaign-show.scss */
+#campaign-select #campaign-select-option .campaign-select-group .campaign-sub-title {
+  margin-top: 10px;
+}
+
+/* line 600, campaign-show.scss */
+#campaign-related {
+  padding: 20px 0 30px 0;
+  background: -webkit-radial-gradient(white, rgba(200, 214, 227, 0.1) 90%);
+  /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(white, rgba(200, 214, 227, 0.1) 90%);
+  /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(white, rgba(200, 214, 227, 0.1) 90%);
+  /* For Firefox 3.6-15 */
+  background: radial-gradient(#ffffff, rgba(200, 214, 227, 0.1) 90%);
+  /* Standard syntax */
+}
+/* line 604, campaign-show.scss */
+#campaign-related .campaign-sub-title .see-all-related {
+  display: block;
+  margin-top: 25px;
+  float: right;
+}
+/* line 610, campaign-show.scss */
+#campaign-related #carousel-campaign-related {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+/* line 615, campaign-show.scss */
+#campaign-related #carousel-campaign-related .carousel-control {
+  width: auto;
+  opacity: 1;
+  color: #555;
+}
+/* line 619, campaign-show.scss */
+#campaign-related #carousel-campaign-related .carousel-control .circle-control {
+  padding: 5px 10px;
+  background: #ddd;
+  line-height: 40px;
+  font-size: 24px;
+}
+/* line 626, campaign-show.scss */
+#campaign-related #carousel-campaign-related .left {
+  left: -15px;
+}
+/* line 629, campaign-show.scss */
+#campaign-related #carousel-campaign-related .right {
+  right: 13px;
+}
+
+/* line 635, campaign-show.scss */
+.box-related .item-related {
+  height: 200px;
+  border: 1px solid rgba(200, 214, 227, 0.7);
+  border-radius: 5px;
+  display: inline-block;
+  overflow: hidden;
+  padding: 15px;
+  text-decoration: none;
+  color: #333;
+  background: -webkit-radial-gradient(white, rgba(200, 214, 227, 0.1) 90%);
+  /* Safari 5.1-6.0 */
+  background: -o-radial-gradient(white, rgba(200, 214, 227, 0.1) 90%);
+  /* For Opera 11.6-12.0 */
+  background: -moz-radial-gradient(white, rgba(200, 214, 227, 0.1) 90%);
+  /* For Firefox 3.6-15 */
+  background: radial-gradient(#ffffff, rgba(200, 214, 227, 0.1) 90%);
+  /* Standard syntax */
+}
+/* line 645, campaign-show.scss */
+.box-related .item-related:hover {
+  border-bottom: 1px solid rgba(200, 214, 227, 0.7);
+  border-left: 1px solid rgba(200, 214, 227, 0.7);
+  border-right: 1px solid rgba(200, 214, 227, 0.7);
+  box-shadow: 0 3px 8px rgba(200, 214, 227, 0.7);
+}
+/* line 651, campaign-show.scss */
+.box-related .item-related:active {
+  border: none;
+  box-shadow: none;
+}
+/* line 655, campaign-show.scss */
+.box-related .item-related:focus {
+  border: 1px solid #ddd;
+  box-shadow: none;
+}
+/* line 660, campaign-show.scss */
+.box-related .item-related:first-child .img-related {
+  width: 40%;
+  display: inline-block;
+}
+/* line 663, campaign-show.scss */
+.box-related .item-related:first-child .img-related img {
+  width: 150%;
+}
+/* line 677, campaign-show.scss */
+.box-related .item-related .img-related {
+  width: 40%;
+  display: inline-block;
+}
+/* line 680, campaign-show.scss */
+.box-related .item-related .img-related img {
+  width: 100%;
+}
+/* line 684, campaign-show.scss */
+.box-related .item-related .detail-related {
+  width: 57%;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 688, campaign-show.scss */
+.box-related .item-related .detail-related .detail-top {
+  height: 80%;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 692, campaign-show.scss */
+.box-related .item-related .detail-related .detail-top .title-related {
+  color: #34495e;
+}
+/* line 695, campaign-show.scss */
+.box-related .item-related .detail-related .detail-top .p-related {
+  color: #989898;
+}
+/* line 699, campaign-show.scss */
+.box-related .item-related .detail-related .detail-bottom {
+  height: 18%;
+  margin-top: 5px;
+  text-align: right;
+}
+/* line 703, campaign-show.scss */
+.box-related .item-related .detail-related .detail-bottom .btn-related {
+  border: 1px solid #3498db;
+  background: #3498db;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  /* line 713, campaign-show.scss */
+  .container-mobile {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  /* line 717, campaign-show.scss */
+  #buy-group {
+    height: auto;
+  }
+
+  /* line 720, campaign-show.scss */
+  #campaign-related {
+    padding: 0 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 725, campaign-show.scss */
+  #campaign-detail {
+    height: 350px;
+    padding-bottom: 1px;
+  }
+  /* line 729, campaign-show.scss */
+  #campaign-detail #campaign-detail-img img {
+    width: 100%;
+  }
+  /* line 732, campaign-show.scss */
+  #campaign-detail #campaign-detail-img #screen-img {
+    width: 100% !important;
+  }
+  /* line 736, campaign-show.scss */
+  #campaign-detail #campaign-detail-text {
+    padding: 20px;
+    background: #f5f7f7;
+    height: 100%;
+  }
+  /* line 740, campaign-show.scss */
+  #campaign-detail #campaign-detail-text .see-more {
+    bottom: 15px;
+  }
+
+  /* line 746, campaign-show.scss */
+  #campaign-select #campaign-select-option {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 753, campaign-show.scss */
+  #campaign-detail {
+    height: auto;
+    margin-top: 0px;
+  }
+  /* line 756, campaign-show.scss */
+  #campaign-detail #campaign-detail-img {
+    height: calc(50% - 54px);
+  }
+  /* line 758, campaign-show.scss */
+  #campaign-detail #campaign-detail-img img {
+    width: 100%;
+  }
+  /* line 761, campaign-show.scss */
+  #campaign-detail #campaign-detail-img #screen-img {
+    width: 100% !important;
+  }
+  /* line 765, campaign-show.scss */
+  #campaign-detail #campaign-detail-text {
+    height: calc(100% - 50% - 54px);
+    background: #f5f7f7;
+  }
+  /* line 768, campaign-show.scss */
+  #campaign-detail #campaign-detail-text .see-more {
+    bottom: 15px;
+  }
+  /* line 771, campaign-show.scss */
+  #campaign-detail #campaign-detail-text #campaign-detail-box-title {
+    max-height: 50%;
+  }
+  /* line 773, campaign-show.scss */
+  #campaign-detail #campaign-detail-text #campaign-detail-box-title .campaign-title {
+    margin-top: 0px;
+  }
+  /* line 777, campaign-show.scss */
+  #campaign-detail #campaign-detail-text #campaign-detail-about {
+    height: calc(50% - 20px);
+    overflow: hidden;
+    margin: 0 10px;
+  }
+
+  /* line 785, campaign-show.scss */
+  #campaign-select #campaign-select-show {
+    height: 50%;
+  }
+
+  /* line 792, campaign-show.scss */
+  #campaign-related .box-related .item-related .img-related {
+    width: 100%;
+  }
+  /* line 796, campaign-show.scss */
+  #campaign-related .box-related .item-related .detail-related .detail-top {
+    display: none;
+  }
+  /* line 799, campaign-show.scss */
+  #campaign-related .box-related .item-related .detail-related .detail-bottom {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+  }
+}
+/*
+
+#comment{
+	padding:20px 0;
+	.img-profile{
+		width: $userimg;
+		height: $userimg;
+		border-radius:50%;
+		overflow: hidden;
+		display: inline-block;
+		float: left;
+		webkit-box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14);
+		box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14);
+		span{
+			background-size: cover;
+		    display: block;
+		    width: 100%;
+		    height: 100%;
+		}
+	}
+	#header-comment{
+		border-bottom:1px solid #ddd;
+		padding-bottom:5px;
+		margin-bottom: 15px;
+		select {
+			border:none;
+			font-size: 14px;
+			background:transparent;
+			cursor: pointer;
+		}
+	}
+	#box-comment{
+		margin:30px 0;		
+		.media{
+			.media-body{
+				.input-group{
+					input{
+						height: $userimg;
+					}
+					.input-group-btn{
+						vertical-align: top;						
+						#btn-post-comment{
+							height: $userimg - 3px;
+						}
+					}
+					
+				}
+				
+			}
+		}	
+	}
+	.group-comment{
+		.media{
+			border-bottom:1px solid #ddd;
+			padding-bottom:5px;
+			.media-body{
+				.comment-time{
+					padding:5px 15px 5px 0;
+					display: inline-block;
+					span{
+						font-size: 12px;
+					color: #989898;
+					}
+				}
+				.group-like-comment{
+					display: inline-block;
+					.like-comment{
+						i{
+						
+						}
+						span{
+							padding: 0 5px;
+						}
+						&:hover{
+							cursor: pointer;
+						}
+					}
+					.default{
+						color : #989898;
+					}
+				}
+			}
+		}
+	}
+}
+*/
+/* line 901, campaign-show.scss */
+#section-detail #detail-warpper .nav-tabs {
+  border-bottom: 2px solid #f12b24;
+  background: #fff;
+}
+/* line 904, campaign-show.scss */
+#section-detail #detail-warpper .nav-tabs li {
+  margin-bottom: -1px;
+}
+/* line 906, campaign-show.scss */
+#section-detail #detail-warpper .nav-tabs li a {
+  border: 1px solid #E8E8E8;
+  border-bottom: 2px solid transparent;
+  border-right: 1px solid transparent;
+  color: #333;
+  border-radius: 0px;
+  margin-right: 0px;
+}
+/* line 915, campaign-show.scss */
+#section-detail #detail-warpper .nav-tabs li:hover a {
+  background: #fefefe;
+}
+/* line 921, campaign-show.scss */
+#section-detail #detail-warpper .nav-tabs li.active a {
+  border: 2px solid #f12b24;
+  border-bottom: 2px solid transparent;
+  background: #f12b24;
+  color: #fff;
+}
+/* line 929, campaign-show.scss */
+#section-detail #detail-warpper .nav-tabs li:last-child a {
+  border-right: 1px solid #E8E8E8;
+}
+@media (max-width: 767px) {
+  /* line 935, campaign-show.scss */
+  #section-detail #detail-warpper .nav-tabs li {
+    width: auto;
+  }
+  /* line 938, campaign-show.scss */
+  #section-detail #detail-warpper .nav-tabs #tab-warranty {
+    display: none;
+  }
+  /* line 941, campaign-show.scss */
+  #section-detail #detail-warpper .nav-tabs #tab-shipping {
+    display: none;
+  }
+}
+/* line 946, campaign-show.scss */
+#section-detail #detail-warpper .tab-content {
+  padding: 15px 0;
+}
+/* line 949, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-header {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+/* line 954, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-header h4 #sort-comment {
+  font-size: 14px;
+  border: transparent;
+}
+/* line 957, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-header h4 #sort-comment:hover {
+  cursor: pointer;
+}
+@media (max-width: 767px) {
+  /* line 949, campaign-show.scss */
+  #section-detail #detail-warpper .tab-content .tab-pane .tabpanel-header {
+    padding: 0px 15px;
+  }
+}
+/* line 966, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body {
+  padding: 10px;
+}
+/* line 968, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body .group-comment {
+  min-height: 50px;
+}
+/* line 971, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body .text-tab {
+  padding-left: 90px;
+}
+/* line 974, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body .img-banner {
+  max-height: 220px;
+  margin: 20px auto;
+  display: block;
+}
+/* line 982, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body #box-comment .media .media-left .img-profile {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+  float: left;
+  webkit-box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14);
+  box-shadow: inset 0 0 0 -2px rgba(255, 255, 255, 0.48), 0 0 0 1px rgba(0, 0, 0, 0.14);
+}
+/* line 991, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body #box-comment .media .media-left .img-profile span {
+  background-size: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* line 1001, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body #box-comment .media .media-body .input-group input {
+  height: 45px;
+}
+/* line 1004, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body #box-comment .media .media-body .input-group .input-group-btn {
+  vertical-align: top;
+}
+/* line 1006, campaign-show.scss */
+#section-detail #detail-warpper .tab-content .tab-pane .tabpanel-body #box-comment .media .media-body .input-group .input-group-btn #btn-post-comment {
+  height: 42px;
+}
+/* line 1017, campaign-show.scss */
+#section-detail #detail-warpper .tab-content #shipping .tabpanel-body {
+  padding: 10px;
+}
+/* line 1022, campaign-show.scss */
+#section-detail #detail-warpper .tab-content #warranty .tabpanel-body {
+  padding: 10px;
+}
+/* line 1029, campaign-show.scss */
+#section-detail .mobile-customercare {
+  display: none;
+}
+@media (max-width: 480px) {
+  /* line 1033, campaign-show.scss */
+  #section-detail .mobile-customercare {
+    display: block;
+  }
+  /* line 1036, campaign-show.scss */
+  #section-detail .mobile-customercare .list-group .list-group-item {
+    border-radius: 0px;
+    border-left: none;
+    border-right: none;
+    padding: 0px;
+  }
+  /* line 1041, campaign-show.scss */
+  #section-detail .mobile-customercare .list-group .list-group-item a {
+    padding: 10px 15px;
+    display: block;
+  }
+  /* line 1044, campaign-show.scss */
+  #section-detail .mobile-customercare .list-group .list-group-item a:hover {
+    text-decoration: none;
+  }
+}
+
+/* line 1055, campaign-show.scss */
+#modal-tshirt-size .modal-body {
+  background: #fff;
+}
+/* line 1059, campaign-show.scss */
+#modal-tshirt-size .modal-body .table-form tr th {
+  text-align: center;
+}
+/* line 1064, campaign-show.scss */
+#modal-tshirt-size .modal-body .table-form tr td {
+  text-align: center;
+}
+
+/* line 1072, campaign-show.scss */
+#modal-waranty .box {
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* line 1083, campaign-show.scss */
+.btn-circle i {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px !important;
+  vertical-align: middle;
+}
+/* line 1091, campaign-show.scss */
+.btn-circle:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 1095, campaign-show.scss */
+.btn-circle:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 1101, campaign-show.scss */
+.btn-blue i {
+  background: #3498db;
+  color: #fff;
+}
+/* line 1106, campaign-show.scss */
+.btn-blue:hover i {
+  background: #2980b9;
+  color: #f5f7f7;
+}
+
+/* line 1113, campaign-show.scss */
+.wished {
+  color: #f62459 !important;
+}
+/* line 1115, campaign-show.scss */
+.wished i {
+  background: #f62459 !important;
+  color: #fff !important;
+}
+/* line 1119, campaign-show.scss */
+.wished:hover {
+  color: #db0a5b !important;
+}
+/* line 1121, campaign-show.scss */
+.wished:hover i {
+  background: #db0a5b !important;
+  color: #fff !important;
+}
+
+/* line 1129, campaign-show.scss */
+.btn-gray {
+  color: #34495e;
+  text-decoration: none;
+}
+/* line 1132, campaign-show.scss */
+.btn-gray i {
+  background: #dadfe1;
+  color: #34495e;
+}

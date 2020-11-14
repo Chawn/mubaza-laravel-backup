@@ -1,0 +1,56 @@
+/* line 10, color.scss */
+.link {
+  color: #3498db;
+}
+/* line 12, color.scss */
+.link:hover {
+  color: #2980b9;
+}
+
+/* line 16, color.scss */
+.btn-link {
+  background: #3498db;
+  color: #fff;
+}
+/* line 19, color.scss */
+.btn-link:hover {
+  background: #2980b9;
+  color: #f5f7f7;
+}
+
+/* line 24, color.scss */
+.pink {
+  color: #f62459;
+}
+/* line 26, color.scss */
+.pink:hover {
+  color: #db0a5b;
+}
+
+/* line 30, color.scss */
+.darkblue {
+  color: #34495e;
+}
+/* line 32, color.scss */
+.darkblue:hover {
+  color: #2c3e50;
+}
+
+/* line 37, color.scss */
+.progress-green {
+  background: #03c9a9;
+}
+
+/* 
+.btn-box {
+	border-radius:0px;
+	&.btn-begin{
+		background: $green;
+		color: #fff;
+		border:1px solid $green;
+		&.line{
+			background:#fff !important;
+			color: $green;
+		}
+	}
+} */

@@ -1,0 +1,375 @@
+$border:1px solid #000;
+$cutLine : 1px solid #ddd;
+
+
+$A6Width: 487px;
+$A6Height: 675px;
+
+$A5Width : 974px;
+$A5Height: 675px;
+
+$a4-3Width: 974px;
+$a4-3height: 450px;
+
+$a4-4Width: 954px;
+$a4-4height: 317px;
+
+$labelWidth : 937px;
+$labelHeight : 618px;
+
+$border: 1px solid #000;
+
+body{
+	margin: 0px;
+	font-family: 'tahoma';
+}
+.page-a6{
+	width: $A6Width;
+	height: $A6Height;
+	padding: 7px;
+	.header{
+		border-bottom: $border;
+		table{
+			tbody{
+				tr{
+					td{
+						vertical-align: top;
+					}
+				}
+			}
+		}
+		p{
+			margin: 2px 0
+		}
+	}
+	.address{
+		border-bottom: $border;
+	}
+}
+
+
+.page-a5{
+	width: $A5Width;
+	height: $A5Height;
+	border-bottom: $cutLine;
+	padding: 10px 0;
+	.label{
+		width: $labelWidth;
+		height: $labelHeight;
+		margin: auto;
+	}	
+}
+
+$barcodeHead: 24px;
+.page-a44{
+	width: $a4-4Width;
+	height: $a4-4height;
+	table{
+		tbody{
+			tr{
+				td{
+					vertical-align: top;
+				}
+			}
+		}
+	}
+	.header{
+		.detail{
+			p{
+				font-size: 13px;
+				margin: 2px 0;
+			}
+			h4{
+				margin: 2px 0;
+			}
+		}
+	}
+	.barcode{
+		.head{
+			.orderid{
+				display: inline-block;
+				float: left;
+				width: 45%;
+				background: #000;
+				color: #fff;
+				line-height: $barcodeHead;
+				padding: 0px 5px;
+			}
+			.tringle{
+				display: inline-block;
+				float: left;
+				width: 0; 
+				height: 0; 
+				border-top: $barcodeHead solid transparent;
+				border-left: $barcodeHead solid #000;
+			}
+			.qty{
+				display: inline-block;
+				width: 45%;
+				text-align: right;
+				line-height: $barcodeHead;
+			}
+		}
+		.order{
+			border:$border;
+			padding: 5px;
+			max-height: 193px;
+			.item{
+				border-bottom: $border;
+				padding-bottom: 5px;
+				p{
+					margin: 3px 0;
+					font-size: 12px;
+				}
+				.text-indent{
+					margin-left: 25px;
+					span{
+						float: right;
+						margin-right: 10px;
+					}
+				}
+				&:last-child{
+					border:none;
+				}
+			}
+		}
+		.seemore{
+			font-size: 10px;
+			margin: 2px 15px 0 0;
+			font-weight: 600;
+			float: right;
+		}
+	}
+	.box-barcode{
+		height: 50px;
+		border:none;
+		.shipment-way{
+			display: inline-block;
+			width: 130px;
+    		text-align: center;
+    		line-height: 35px;
+		}
+		.order-id{
+			text-align: center;
+			width: 330px;
+			float: right;
+			margin-top: 5px;
+			p{
+				margin: 0 35px 0 0;
+				font-size: 14px;
+			}
+			.bcTarget{
+				float: right;
+				margin-right: 10px;
+			}
+		}	
+	}
+	.qrcode{
+		width: 75px;
+		img{
+			width: 100%;
+		}
+	}
+	.address{
+		padding:10px 15px;
+		table{
+			border:2px solid #000;
+			padding: 0 5px;
+			width: 100%;
+			tbody{
+				tr{
+					td{
+						p{
+							margin: 2px 0px;
+						}
+						.zipcode{
+							letter-spacing:20px;
+						}
+						h2{
+							margin: 5px 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.page-3a4{
+	width: $a4-3Width;
+	height: $a4-3height;
+	.label{
+		width: $labelWidth;
+		height: $a4-3height - 30px;
+		margin: auto;
+		tr{
+			td{
+				vertical-align: top;
+			}
+		}
+	}
+}
+.page {
+    width: 974px;
+    height: 1350px;
+    /*
+    max-height: 1376px;
+    */
+    border-spacing: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.box-order{
+	.box-order-header{		
+		.box-logo{
+			display: inline-block;
+			float: left;
+			width: 60px;
+			margin-right: 15px;
+			.logo{
+				width: 100%;
+			}
+		}
+		.box-header{
+			text-align: center;
+		}
+	}
+	.box-order-body{
+		.box-head{			
+			background: #555 !important;
+			height: 30px;
+			color:#fff;
+			font-weight: bold;
+			line-height: 30px;
+			vertical-align: middle;
+			padding-left: 15px;
+			font-size: 16px;
+			border:$border;
+			border-bottom:none;
+
+		}
+		.detail{
+			.table-detail{
+				width: 100%;
+				border:none;
+				thead{
+					background: #ddd;
+					padding: 10px;
+					tr{
+						height: 30px;
+						th{
+							border:$border;
+							border-left:none;
+							&:first-child{
+								border-left:$border;
+							}
+						}
+						.box-head{
+							text-align: left;
+							border-bottom: none;
+						}
+					}
+				}
+				tbody{
+					tr{						
+						td{
+							vertical-align: middle;
+							height: auto;
+							padding: 6px 10px;
+							border:$border;
+							border-bottom:none;
+							border-top:none;
+							text-align: center;
+							border-left:none;
+							&:first-child{
+								border-left:$border;
+								text-align: left;
+							}
+						}
+						&:last-child{
+							td{
+								border-bottom:$border;
+							}
+						}
+					}
+				}
+				
+			}
+		}
+	}
+}
+.box-caution{
+	padding: 0 15px;
+	height: 155px;
+    border: $border;
+}
+.box-shipment{
+	width:100%;	
+	table{
+		width:100%;	
+		height: 140px;
+		border: $border;
+		tr{
+			td{
+				height: auto;
+				border:none;
+				vertical-align: middle;
+				&:first-child{
+					border-right: $border;
+				}
+			}
+			.shipment-way{
+				width: 45%;
+			}
+			.shipment-id{
+				text-align: center;
+				width: 55%;
+			}
+		}
+	}
+	
+}
+.from{
+	padding:10px;
+	border:$border;
+	border-top:none;
+}
+.box-customer{
+	border: $border;
+	border-top: 1px solid transparent;
+    padding: 0 10px;
+    .box-customer-header{
+
+    }
+    .box-customer-address{
+		font-size: 16px;
+    }
+    .zipcode{
+		text-align: right;
+		padding-right: 30px;
+		letter-spacing: 10px;
+    }
+}
+
+.box-barcode{
+	height: 155px;
+	border:$border;
+	.order-id{
+		text-align: center;
+		width: 350px;
+		float: right;
+		margin-top: 30px;
+		h4{
+			margin: 0 20px 0 0;
+
+		}
+		.bcTarget{
+			float: right;
+			margin-right: 10px;
+		}
+	}
+		
+}
